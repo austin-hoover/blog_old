@@ -94,7 +94,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      1 min read
+      2 min read
     
 </span></p>
 
@@ -113,6 +113,7 @@ window.onload = wrap_img;
   <div class="post-content e-content" itemprop="articleBody">
     <ul class="section-nav">
 <li class="toc-entry toc-h2"><a href="#Introduction">Introduction </a></li>
+<li class="toc-entry toc-h2"><a href="#The-problem">The problem </a></li>
 <li class="toc-entry toc-h2"><a href="#1D-motion">1D motion </a></li>
 <li class="toc-entry toc-h2"><a href="#2D-motion">2D motion </a></li>
 <li class="toc-entry toc-h2"><a href="#Conclusion">Conclusion </a></li>
@@ -136,39 +137,71 @@ window.onload = wrap_img;
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><a href="https://en.wikipedia.org/wiki/Particle_accelerator">Particle accelerators</a> are machines which produce groups of charged particles (known as <em>beams</em>), increase their kinetic energy, and guide them to a target. These machines are invaluable to modern scientific research. The most famous examples are <em>colliders</em>, such as the [LHC], in which two beams are smashed together to generate fundamental particles. A lesser known fact is that the fields of condensed matter physics, material science, chemistry, biology, and medicine also benefit tremendously from accelerators due to the effectiveness of scattering experiments. In such an experiment a beam is collided with a target, and the subsequent deflection of the beam is used to learn information about the target. This is accomplished with a neutron beam in <em>Spallation neutron sources</em> such as [SNS], with an electron beam in <em>electron scattering facilities</em> such as [CEBAF], or with photon beams in <em>synchrotron light sources</em> [APS].</p>
-<p>In general there are a few property of the beam which are very important to the scientists performing the experiment; in colliders it is the energy and luminosity, in spallation sources it is the intensity, and in light sources it is the brightness. There is thus a constant need to push these parameters to new regions. For example, below is the famous Livingston plot which shows the log of the energy on the vertical axis and time on the horizontal axis.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p><figure>
-  
-    <img class="docimage" src="/blog/images/copied_from_nb/images/livingston.png" alt="" style="max-width: 300px">
-    
-    
-</figure>
-</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Constructing and operating facilities such as these generally takes years of planning, thousands of scientists and engineers, and hundreds of millions or even billions of dollars.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Introduction">
 <a class="anchor" href="#Introduction" aria-hidden="true"><span class="octicon octicon-link"></span></a>Introduction<a class="anchor-link" href="#Introduction"> </a>
+</h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><a href="https://en.wikipedia.org/wiki/Particle_accelerator">Particle accelerators</a> are machines which produce groups of charged particles (known as <em>beams</em>), increase their kinetic energy, and guide them to a target. These machines are invaluable to modern scientific research. The most famous examples are <em>colliders</em>, such as the <a href="https://home.cern/science/accelerators/large-hadron-collider">LHC</a>, in which two beams are smashed together to generate fundamental particles. A lesser known fact is that the fields of condensed matter physics, material science, chemistry, biology, and medicine also benefit tremendously from accelerators due to the effectiveness of scattering experiments. In such an experiment a beam is collided with a target, and the subsequent deflection of the beam is used to learn information about the target. This is accomplished with a neutron beam in <em>Spallation neutron sources</em> such as <a href="https://neutrons.ornl.gov/sns">SNS</a>, with an electron beam in <em>electron scattering facilities</em> such as <a href="https://science.osti.gov/np/Facilities/User-Facilities/CEBAF">CEBAF</a>, or with photon beams in <em>synchrotron light sources</em> such as <a href="https://www.aps.anl.gov">APS</a>.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p></p>
+<center>
+    <table><tr>
+<td><img src="images/lhc.jpg"></td>
+<td><img src="images/sns.jpg"></td>
+</tr></table>&lt;/p&gt;
+<p></p>
+<center>&lt;/p&gt;
+<p></p>
+<center>
+<i>Left: a detector at an interaction point in the LHC. Right: aerial view of the SNS.<i></i></i><center>&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>In general there are a few property of the beam which are very important to experimental scientists; in colliders it is the energy and luminosity, in spallation sources it is the intensity, and in light sources it is the brightness. There is thus a constant need to push these parameters to new regions. For example, below is the famous Livingston plot which shows the beam energy achieved by various machines over the past century.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p></p>
+<center>
+<img src="images/livingston.png" width="350" align="center" alt=""><center>&lt;/p&gt;
+<p></p>
+<center>
+<i>Livingston plot showing the increase in collider beam energy over time.<i></i></i><center>&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>There are many physics issues associated with the optimization of these beam parameters. <em>Accelerator physics</em> is a field of applied physics which studies these issues. The task of the accelerator physicist is to understand, control, and measure the journey of the beam from its creation to its final destination. The difficulty of this task has grown over time; the improvement accelerator performance has brought with it a staggering increase in size and complexity. The construction and operation of modern accelerators generally requires years of planning, thousands of scientists and engineers, and hundreds of millions or even billions of dollars.</p>
+<p>Despite this complexity, the physics principles upon which these machines are built are quite simple. Most textbooks on the subject start with the motion of a particle in an accelerator under a few simplifying assumptions, so that the equations of motion have an analytic solution. This post summarizes</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="The-problem">
+<a class="anchor" href="#The-problem" aria-hidden="true"><span class="octicon octicon-link"></span></a>The problem<a class="anchor-link" href="#The-problem"> </a>
 </h2>
 </div>
 </div>
@@ -232,8 +265,22 @@ window.onload = wrap_img;
 </div>
 </div>
 </div>
-</div>
+&lt;/div&gt;
+ 
 
+</center>
+</center>
+</center>
+</center>
+</div>
+</div></div>
+</center>
+</center>
+</center>
+</center>
+</div>
+</div></div>
+</div>
 
 
   </div><!-- from https://github.com/utterance/utterances -->
