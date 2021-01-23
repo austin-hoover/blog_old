@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://austin-hoover.github.io/blog/physics/2021/01/21/coupling.html</loc>
-<lastmod>2021-01-21T00:00:00-06:00</lastmod>
-</url>
-<url>
 <loc>https://austin-hoover.github.io/blog/physics/accelerators/2021/01/21/parametric_oscillators.html</loc>
 <lastmod>2021-01-21T00:00:00-06:00</lastmod>
 </url>
