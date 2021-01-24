@@ -3,9 +3,26 @@
 @import "minima/fastpages-styles";   
 
 
-
 /*-----------------------------------*/
 /*----- ADD YOUR STYLES BELOW -------*/
+
+$dt-gray-dark: #282a36;  // Background
+
+.post-content p, .post-content li {
+   font-size: 15px;
+//    color: Black;
+   color: #333333; // 15%
+   font-family: Helvetica;
+}
+
+// .input_area pre {
+//     background-color: FloralWhite;
+// //     font-size: 15px;
+// }
+
+.output_area pre {
+    background-color: WhiteSmoke;
+}
 
 // If you want to turn off dark background for syntax highlighting, comment or delete the below line.
 @import "minima/fastpages-dracula-highlight"; 

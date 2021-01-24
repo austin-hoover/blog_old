@@ -4,8 +4,9 @@ title: About Me
 permalink: /about/
 ---
 
-This website is powered by **[fastpages](https://github.com/fastai/fastpages)** [^1].
+I am completing my PhD in physics from the [University of Tennessee, Knoxille](http://physics.utk.edu). My research is in the area of accelerator physics, and I work as part of the Accelerator Physics group at the [Spallation Neutron Source](https://neutrons.ornl.gov/sns). Previously, I graduated from [Wheaton College](https://www.wheaton.edu) with a BS in physics.
 
 
+[Talks]()
 
-[^1]:a blogging platform that natively supports Jupyter notebooks in addition to other formats.
+[Publications]()
