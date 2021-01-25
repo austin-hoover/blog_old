@@ -110,6 +110,30 @@ $$B_y + iB_x = B_{ref}\sum_{n=1}^{\infty}\left({B_n + iA_n}\right)\left(\frac{x 
     {% raw %}
     
 <div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># anim = myanim.corner_onepart(</span>
+<span class="c1">#     X, </span>
+<span class="c1">#     dims=&#39;all&#39;, </span>
+<span class="c1">#     figsize=8, </span>
+<span class="c1">#     show_history=True, </span>
+<span class="c1">#     text_fmt=&#39;Period = {}&#39;,</span>
+<span class="c1">#     fps=30,</span>
+<span class="c1">#     label_kws=dict(fontsize=&#39;large&#39;),</span>
+<span class="c1">#     text_kws=dict(fontsize=&#39;large&#39;),</span>
+<span class="c1">#     grid_kws=dict(alpha=0.11),</span>
+<span class="c1">#     history_kws=dict(s=5, alpha=0.2, color=&#39;black&#39;),</span>
+<span class="c1">#     color=&#39;black&#39;,</span>
+<span class="c1">#     s=10</span>
+<span class="c1"># )</span>
+<span class="c1"># anim</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
 
 </div>
     {% endraw %}
