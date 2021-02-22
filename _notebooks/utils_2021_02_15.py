@@ -2,7 +2,7 @@ import numpy as np
 import numpy.linalg as la
 import pandas as pd
 from scipy.stats import truncnorm
-from scipy.integrate import solve_ivp
+from scipy.integrate import odeint # works better than `solve_ivp`
 import matplotlib.pyplot as plt
 
 from scipy.constants import epsilon_0, elementary_charge, speed_of_light, pi
@@ -66,11 +66,11 @@ class EnvelopeSolver:
         Whether to convert units to mm-mrad.
     """
     def __init__(self, Sigma0, positions, perveance, ext_foc=None, 
-                 mm_mrad=True, tol=1e-14):
+                 mm_mrad=True, atol=1e-14):
         self.sigma0 = Sigma0[np.triu_indices(4)]
         self.positions, self.perveance = positions, perveance
         self.mm_mrad = mm_mrad
-        self.tol = tol
+        self.atol = atol
         self.ext_foc = ext_foc
         if self.ext_foc is None:
             self.ext_foc = lambda s: (0.0, 0.0)
@@ -81,7 +81,7 @@ class EnvelopeSolver:
     def set_perveance(self, perveance):
         self.perveance = perveance
         
-    def derivs(self, s, sigma): 
+    def derivs(self, sigma, s): 
         """Return derivative of 10 element moment vector."""
         k0x, k0y = self.ext_foc(s)
         k0xy = 0.
@@ -111,16 +111,11 @@ class EnvelopeSolver:
                 
     def integrate(self):
         """Integrate the envelope equations."""
-        s_span = (self.positions[0], self.positions[-1])
-        sol = solve_ivp(self.derivs, s_span, self.sigma0, 
-                        t_eval=self.positions, atol=self.tol)
-        self.moments = sol.y.T
+        self.moments = odeint(self.derivs, self.sigma0, self.positions, atol=self.atol)
         if self.mm_mrad:
             self.moments *= 1e6
             
             
-            
-#hide
 def rotation_matrix(phi):
     """2D rotation matrix (cw)."""
     C, S = np.cos(phi), np.sin(phi)
@@ -206,6 +201,14 @@ class DistGenerator:
         """Set emittance."""
         self.ex, self.ey = ex, ey
         self.A = np.sqrt(np.diag([ex, ex, ey, ey]))
+        
+    def get_cov(self, ex, ey):
+        Sigma = np.zeros((4, 4))
+        gx = (1 + self.ax**2) / self.bx
+        gy = (1 + self.ay**2) / self.by
+        Sigma[:2, :2] = ex * np.array([[self.bx, -self.ax], [-self.ax, gx]])
+        Sigma[2:, 2:] = ey * np.array([[self.by, -self.ay], [-self.ay, gy]])
+        return Sigma
     
     def unnormalize(self, X):
         """Transform coordinates out of normalized phase space.
@@ -237,7 +240,9 @@ class DistGenerator:
             The corodinate array
         """
         if type(eps) is float:
-            eps = (eps, eps)
+            eps = [eps, eps]
+        if kind == 'kv':
+            eps = [4 * e for e in eps]
         if eps is not None:
             self.set_eps(*eps)
         Xn = self._gen_funcs[kind](int(nparts), **kwargs)
