@@ -1,7 +1,7 @@
 ---
 keywords: fastai
 description: Studying particle motion in an ideal model of an accelerator.
-title: Parametric Oscillators
+title: Parametric oscillators
 toc: true 
 badges: false
 comments: true
