@@ -5,7 +5,7 @@ title: Parametric oscillators
 toc: true 
 badges: false
 comments: true
-categories: [physics, accelerators]
+categories: [physics, accelerators, oscillators]
 nb_path: _notebooks/2021-01-21-parametric_oscillators.ipynb
 layout: notebook
 ---
@@ -32,13 +32,13 @@ $$\frac{d^2x}{dt^2} + k(t)x = 0,$$
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Problem-motivation">Problem motivation<a class="anchor-link" href="#Problem-motivation"> </a></h2>
+<h3 id="Problem-motivation">Problem motivation<a class="anchor-link" href="#Problem-motivation"> </a></h3>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Accelerator-physics">Accelerator physics<a class="anchor-link" href="#Accelerator-physics"> </a></h3>
+<h4 id="Accelerator-physics">Accelerator physics<a class="anchor-link" href="#Accelerator-physics"> </a></h4>
 </div>
 </div>
 </div>
@@ -79,7 +79,7 @@ $$\frac{d^2x}{dt^2} + k(t)x = 0,$$
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="How-to-build-an-accelerator">How to build an accelerator<a class="anchor-link" href="#How-to-build-an-accelerator"> </a></h3>
+<h4 id="How-to-build-an-accelerator">How to build an accelerator<a class="anchor-link" href="#How-to-build-an-accelerator"> </a></h4>
 </div>
 </div>
 </div>
@@ -185,7 +185,7 @@ $$\mathbf{F}_{quad} \propto -x\hat{x} + y\hat{y}.$$
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Linearized-equation-of-motion">Linearized equation of motion<a class="anchor-link" href="#Linearized-equation-of-motion"> </a></h3><p>Making the above approximation of perfect dipole and quadrupole magnets, and ignoring all other elements in the machine, we arrive at the equation of motion for a single particle in the transverse plane:</p>
+<h4 id="Linearized-equation-of-motion">Linearized equation of motion<a class="anchor-link" href="#Linearized-equation-of-motion"> </a></h4><p>Making the above approximation of perfect dipole and quadrupole magnets, and ignoring all other elements in the machine, we arrive at the equation of motion for a single particle in the transverse plane:</p>
 <p>{% raw %}
 $$x'' + k(s)x = 0,$$
 {% endraw %}</p>
@@ -196,13 +196,13 @@ $$x'' + k(s)x = 0,$$
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Solution">Solution<a class="anchor-link" href="#Solution"> </a></h2>
+<h3 id="Solution">Solution<a class="anchor-link" href="#Solution"> </a></h3>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Envelope-function">Envelope function<a class="anchor-link" href="#Envelope-function"> </a></h3>
+<h4 id="Envelope-function">Envelope function<a class="anchor-link" href="#Envelope-function"> </a></h4>
 </div>
 </div>
 </div>
@@ -240,7 +240,7 @@ $$x(s) = \sqrt{\epsilon}\,w(s) \cos\left({\mu(s) + \delta}\right).$$
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Phase-space">Phase space<a class="anchor-link" href="#Phase-space"> </a></h3>
+<h4 id="Phase-space">Phase space<a class="anchor-link" href="#Phase-space"> </a></h4>
 </div>
 </div>
 </div>
@@ -12900,7 +12900,7 @@ $$\epsilon = \beta {x'}^2 + 2\alpha xx' + \gamma x^2$$
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Transfer-matrices">Transfer matrices<a class="anchor-link" href="#Transfer-matrices"> </a></h3>
+<h4 id="Transfer-matrices">Transfer matrices<a class="anchor-link" href="#Transfer-matrices"> </a></h4>
 </div>
 </div>
 </div>
@@ -12941,7 +12941,7 @@ $$</p>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Conclusion">Conclusion<a class="anchor-link" href="#Conclusion"> </a></h2>
+<h3 id="Conclusion">Conclusion<a class="anchor-link" href="#Conclusion"> </a></h3>
 </div>
 </div>
 </div>
