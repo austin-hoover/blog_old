@@ -423,9 +423,11 @@ pre code { font-size: 15px !important; }
 
 /*-----------------------------------*/
 /*----- ADD YOUR STYLES BELOW -------*/
-.post-content p, .post-content li { font-size: 15px; color: #333333; font-family: Helvetica; }
+.post-content p, .post-content li { font-size: 14px; color: #404040; font-family: Arial; }
 
 .output_area pre { background-color: WhiteSmoke; }
+
+.post-title { font-size: 33px; }
 
 .language-python + .language-plaintext { border-left: 1px solid grey; margin-left: 1rem !important; }
 
