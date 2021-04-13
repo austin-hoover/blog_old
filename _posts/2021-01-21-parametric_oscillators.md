@@ -21,7 +21,7 @@ layout: notebook
         
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>This post presents the solution to a general problem: what is the motion of a particle in one dimension (1D) in the presence of time-dependent linear forces? This amounts to solving the following equation of motion:</p>
+<p>This post presents the solution to a general problem: what is the motion of a particle in one dimension (1D) in the presence of time-dependent, linear, periodic forces? This amounts to solving the following equation of motion:</p>
 <p>{% raw %}
 $$\frac{d^2x}{dt^2} + k(t)x = 0,$$
 {% endraw %}</p>
@@ -110,21 +110,7 @@ $$\mathbf{F} = q\left({\mathbf{E} + \mathbf{v} \times \mathbf{B}}\right),$$
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>The first task, acceleration, is not the focus of this post; I'll just mention the basic principles that are used. Acceleration cannot be done with $\mathbf{B}$ fields, since the force they produce is always perpendicular the motion. A simple method is to produce an electric field is to create voltage difference between two conductors, but there is a limit to the field strengths that can be produced in this way. One solution is to create a series of radio-frequency (RF) cavities, each with a time-varying voltage. The positions and lengths of these cavities are chosen so that particles are only within the cavities when the electric field points along the direction of motion, as shown by this fantastic animation from Wikipedia:</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>{% include image.html max-width="550" file="/blog/images/copied_from_nb/images/linac.gif" %}</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>The remaining tasks, steering and focusing, concern the motion in the transverse plane. $\mathbf{B}$ fields, not $\mathbf{E}$ fields, are used since their effect grows with increased particle velocity. Any transverse magnetic field $\mathbf{B} = (B_x, B_y)^T$ can be written using a multipole expansion</p>
+<p>The first task, acceleration, is not the focus of this post. The remaining tasks, steering and focusing, concern the motion in the transverse plane. $\mathbf{B}$ fields, not $\mathbf{E}$ fields, are used since their effect grows with increased particle velocity. Any transverse magnetic field $\mathbf{B} = (B_x, B_y)^T$ can be written using a multipole expansion</p>
 <p>{% raw %}
 $$B_y + iB_x = B_{ref}\sum_{n=1}^{\infty}\left({B_n + iA_n}\right)\left(\frac{x + iy}{R_{ref}}\right)^{n-1}.$$
 {% endraw %}</p>
