@@ -9,12 +9,9 @@
 $dt-gray-dark: #282a36;  // Background
 
 .post-content p, .post-content li {
-   font-size: 14px;
-//    color: Black;
-   color: #404040; // 25%
-//    color: #333333; // 20%
-//    color: #1a1a1a; // 5%
-//    font-family: Helvetica;
+    font-size: 14px;
+    color: #404040;
+//     color: Black;
     font-family: Arial;
 }
 
@@ -22,13 +19,10 @@ $dt-gray-dark: #282a36;  // Background
     background-color: WhiteSmoke;
 }
 
-.post-title { 
-    font-size: 33px;
-}
-
-// html {zoom: 100%;}
-
-
+h1 {font-size: 255% !important;}
+h2 {font-size: 205% !important;}
+h3 {font-size: 165% !important;}
+h4 {font-size: 135% !important;}
 
 // If you want to turn off dark background for syntax highlighting, comment or delete the below line.
 @import "minima/fastpages-dracula-highlight"; 
