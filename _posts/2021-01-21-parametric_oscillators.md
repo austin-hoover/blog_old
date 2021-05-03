@@ -1,6 +1,6 @@
 ---
 keywords: fastai
-description: Studying particle motion in an ideal model of an accelerator.
+description: Describing particle motion in the presence of time-dependent linear forces.
 title: Parametric oscillators
 toc: true 
 badges: false
