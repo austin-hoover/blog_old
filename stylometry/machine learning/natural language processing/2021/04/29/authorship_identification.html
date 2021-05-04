@@ -93,7 +93,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      34 min read
+      33 min read
     
 </span></p>
 
@@ -746,7 +746,7 @@ $$ (x_1, x_2) \rightarrow (x_1^2, x_2^2, \sqrt{2} x_1 x_2) . \tag{4}$$
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>As I mentioned in the introduction, the I'm following is called <em>N-Gram Feature Selection for Authorship Identification</em>. In short, the paper used <em>n-gram</em> frequencies (defined in a moment) as features in the classification task and developed a new method to select the most significant or "dominant" n-grams. This was tested on a collection of short news articles. Let's step through their method.</p>
+<p>As I mentioned in the introduction, the paper I'm following is called <em>N-Gram Feature Selection for Authorship Identification</em>. In short, the paper used <em>n-gram</em> frequencies (defined in a moment) as features in the classification task and developed a new method to select the most significant or "dominant" n-grams. This was tested on a collection of short news articles. Let's step through their method.</p>
 
 </div>
 </div>
@@ -999,7 +999,7 @@ $$ (x_1, x_2) \rightarrow (x_1^2, x_2^2, \sqrt{2} x_1 x_2) . \tag{4}$$
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>An obvious feature candidate is word frequency; a less obvious one is <em>n-gram</em> frequency. A character n-gram is a string of length n. For example, the 3-grams contained in <em>red_bike!</em> are <em>red</em>, <em>ed_</em>, <em>d_b</em>, <em>_bi</em>, <em>bik</em>, <em>ike</em>, <em>ke!</em>. These shorter strings may be useful because they capture different aspects of style such as the use of punctuation or certain prefixes/suffixes. They also remove any ambiguities in word extraction (is <em>two-fold</em> aa single word?) and work for all languages. In order to use these features in the SVM classifier, we need to create a feature matrix $X$ where $X_{ij}$ is the frequency of the jth n-gram in the ith document. Thus, each document is represented as a vector in $k$ dimensional space, where $k$ is the number of unique n-grams selected from the training documents. We'll also normalize each vector so that all points are mapped onto the surface of the $k$-dimensional unit sphere while preserving the angles between the vectors; this should help the SVM performance a bit.</p>
+<p>An obvious feature candidate is word frequency; a less obvious one is <em>n-gram</em> frequency. A character n-gram is a string of length n. For example, the 3-grams contained in <em>red_bike!</em> are <em>red</em>, <em>ed_</em>, <em>d_b</em>, <em>_bi</em>, <em>bik</em>, <em>ike</em>, <em>ke!</em>. These shorter strings may be useful because they capture different aspects of style such as the use of punctuation or certain prefixes/suffixes. They also remove any ambiguities in word extraction and work for all languages. In order to use these features in the SVM classifier, we need to create a feature matrix $X$ where $X_{ij}$ is the frequency of the jth n-gram in the ith document. Thus, each document is represented as a vector in $k$ dimensional space, where $k$ is the number of unique n-grams selected from the training documents. We'll also normalize each vector so that all points are mapped onto the surface of the $k$-dimensional unit sphere while preserving the angles between the vectors; this should help the SVM performance a bit.</p>
 
 </div>
 </div>
@@ -2230,7 +2230,7 @@ LM related n-grams: 178
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>This post summarized a research paper in the field of Natural Language Processing (NLP). I think that writing such a summary is a good way to learn about a new topic. I didn't exactly reproduce the authors' results, so if anyone reads this (unlikely) and finds a mistake, I would love to know about it.</p>
+<p>This post summarized a research paper in the field of Natural Language Processing (NLP) which focused on feature selection techniques. I didn't exactly reproduce the authors' results, so if anyone reads this (unlikely) and finds a mistake, I would love to know about it.</p>
 <p>In a future post I may apply these methods to my own data set; I'm particularly interested in what would happen with <a href="https://en.wikipedia.org/wiki/Chinese_characters">Chinese characters</a>. There are, of course, a ton of different techniques and experiments to explore which involve NLP. A different problem I'd like to examine is that of <em>artist</em> identification; the problem would be to match a collection of paintings with their painters. The <a href="https://www.wga.hu/index.html">Web Gallery of Art</a> is a potential database that I found after a quick search, and I'm sure there are others. This would give me the chance to learn about image classification techniques.</p>
 
 </div>
