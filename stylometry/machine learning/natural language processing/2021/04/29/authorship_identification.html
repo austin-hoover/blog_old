@@ -93,7 +93,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      33 min read
+      34 min read
     
 </span></p>
 
@@ -353,9 +353,9 @@ $$ y(\mathbf{x}) = \mathbf{w}^T\mathbf{x} + w_0 = 0 \tag{2}. $$
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Some datasets won't be linear separable, in which case we can add a penalty function in order to minimize the number of miscategorized points. So, for <em>N</em> samples we minimize</p>
 <p>
-$$ \frac{1}{2}|\mathbf{w}|^2 +  C\sum_{i=1}^{N}{\Theta\left[{t_i \, y(\mathbf{x}_i)}\right]} . \tag{3}$$
+$$ \frac{1}{2}|\mathbf{w}|^2 +  C\sum_{i=1}^{N}{\max\left[0, 1 - {t_i y(\mathbf{x}_i)}\right]} . \tag{3}$$
 </p>
-<p>where $t_i$ is the true class of point $i$, $\Theta$ is the Heaviside step function, and $C$ is a positive constant. Let's try this on non-linearly separable data sampled from two Gaussian distributions in 2D space. The Python package <a href="https://scikit-learn.org/stable/modules/svm.html">scikit-learn</a> has a user-friendly interface for the SVM implementation in <a href="https://www.csie.ntu.edu.tw/~cjlin/liblinear/">LIBLINEAR</a> which we use here.</p>
+<p>where $t_i$ is the true class of point $i$ ($\pm 1$) and $C$ is a positive constant. Correctly classified points don't contribute anything to the sum since $t_i y(\mathbf{x}_i)$ will be greater than or equal to one. Let's try this on non-linearly separable data sampled from two Gaussian distributions in 2D space. The Python package <a href="https://scikit-learn.org/stable/modules/svm.html">scikit-learn</a> has a user-friendly interface for the SVM implementation in <a href="https://www.csie.ntu.edu.tw/~cjlin/liblinear/">LIBLINEAR</a> which we use here.</p>
 
 </div>
 </div>
