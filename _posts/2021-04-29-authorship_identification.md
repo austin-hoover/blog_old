@@ -21,7 +21,7 @@ layout: notebook
         
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>In this post, I'll summarize a paper by John Houvardas and Efstathios Stamatatos titled <em>N-Gram Feature Selection for Authorship Identification</em> {% cite Houvardas2006 %}. The topic of the paper is <em>authorship identification</em>, that is, to identify the author of an unlabeled document given a list of possible authors and some sample of each author's writing. I'll first motivate the problem of authorship identification, then briefly introduce the relevant statistical methods, and finally summarize and implement the methods in the paper. My goal is to reproduce the paper results as a means of learning about the topic.</p>
+<p>In this post, I'll summarize a paper by John Houvardas and Efstathios Stamatatos titled <em>N-Gram Feature Selection for Authorship Identification</em> {% cite Houvardas2006 %}. The topic of the paper is <em>authorship identification</em>, that is, to identify the author of an unlabeled document given a list of possible authors and some sample of each author's writing. I'll first motivate the problem of authorship identification, then briefly introduce the relevant statistical methods, and finally summarize and implement the methods in the paper. My goal is to reproduce the authors' results.</p>
 
 </div>
 </div>

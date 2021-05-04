@@ -4,11 +4,11 @@ title: About Me
 permalink: /about/
 ---
 
-I'm currently completing a PhD in physics from the [University of Tennessee, Knoxille](http://physics.utk.edu), working as part of the Accelerator Physics group at the [Spallation Neutron Source](https://neutrons.ornl.gov/sns). My research is on high-intensity charged particle beams. I previously obtained a BS in physics from [Wheaton College](https://www.wheaton.edu).
+I'm currently completing a PhD in physics from the [University of Tennessee, Knoxille](http://physics.utk.edu), studying high-intensity proton beam dynamics as part of the Accelerator Physics group at the [Spallation Neutron Source](https://neutrons.ornl.gov/sns) (SNS). I previously obtained a BS in physics from [Wheaton College](https://www.wheaton.edu). 
 
-Producing a solution to a problem sometimes requires learning new concepts, technologies, etc., and it's easy for me to get overwhelmed. During my PhD, I've therefore often found myself creating documents which clearly describe the problem at hand and the potential solutions (or the actual solutions if they've been found), not for the purpose of presenting to others, but rather as an organizational aid for my thoughts. I've found this to be a very effective way to learn about or solidify my understanding of a topic. I created this blog in the same spirit, and I hope it will serve as a tool to for me to learn about whatever I'm interested in, i.e., I'm not actually expecting anyone to read it. The most recent posts are found [here](https://austin-hoover.github.io/blog/), and all posts are organized by topic [here](https://austin-hoover.github.io/blog/categories/).
+Outside of physics, I've recently enjoyed learning about machine learning through courses in the UTK computer science department, and now through self-study. My current main non-STEM interest is philosophy, particularly philosophy of religion. In my spare time, I sometimes exercise, play chess (badly), or play piano (badly).
 
-Outside of physics, but still in the STEM world, I've recently enjoyed learning about machine learning through courses in the UTK grad CS department, and now through self-study. My current main non-STEM interest is philosophy, particularly philosophy of religion. In my spare time I sometimes exercise, play chess (badly), or play piano (badly). I also follow college football and basketball and support the [winningest college football program of all time](https://en.wikipedia.org/wiki/List_of_NCAA_football_teams_by_wins).
+This blog is a space for me to organize my thoughts in writing; I've found this to be a useful exercise when exploring new topics or improving my understanding of familiar topics. All my posts are categorized [here](https://austin-hoover.github.io/blog/categories/).
 
 
 #### Publications
@@ -20,7 +20,7 @@ Outside of physics, but still in the STEM world, I've recently enjoyed learning 
 * [*Thesis proposal*](../_pages/presentations/2020-09-30_thesis_proposal.pdf), University of Tennessee, 09.30.2020
 
 #### Recommendations 
-Here are some things I recommend checking out. I'll try to update the list as I remember(discover) old(new) things.
+Here are some things I recommend checking out. I'll try to update this list as I remember(discover) old(new) things.
 * Articles
     * [The Unreasonable Effectiveness of Mathematics in the Natural Sciences](https://www.maths.ed.ac.uk/~v1ranick/papers/wigner.pdf) — Eugene Wigner
     * [Why are (some) physicists so bad at philosophy?](http://edwardfeser.blogspot.com/2011/02/why-are-some-physicists-so-bad-at.html) — Edward Feser
@@ -33,7 +33,7 @@ Here are some things I recommend checking out. I'll try to update the list as I 
         * [Space Charge Physics for Particle Accelerators](https://link.springer.com/book/10.1007/978-3-319-62157-9) — Hofmann
     * Computer science
         * [Algorithms](https://www.amazon.com/dp/032157351X/ref=cm_sw_em_r_mt_dp_KS6HQWZ5R3MSDS71Z3RE?_encoding=UTF8&psc=1) — Sedgewick/Wayne 
-        * [Elements of Programming Interviews in Python](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836) - Aziz/Lee/Prakash
+        * [Elements of Programming Interviews in Python](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836) — Aziz/Lee/Prakash
         * [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com) — Nielsen
         * [Pattern Recognition and Machine Learning](https://www.amazon.com/Pattern-Recognition-Learning-Information-Statistics/dp/0387310738) — Bishop
     * Math
