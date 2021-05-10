@@ -24,6 +24,8 @@ Here are some things I recommend checking out. I'll try to update this list as I
 * Articles
     * [The Unreasonable Effectiveness of Mathematics in the Natural Sciences](https://www.maths.ed.ac.uk/~v1ranick/papers/wigner.pdf) — Eugene Wigner
     * [Why are (some) physicists so bad at philosophy?](http://edwardfeser.blogspot.com/2011/02/why-are-some-physicists-so-bad-at.html) — Edward Feser
+    * [SEP — Philosophy of Religion](https://plato.stanford.edu/entries/philosophy-religion/)
+    * [New Atheism and its critics](https://onlinelibrary.wiley.com/doi/10.1111/phc3.12560) — Whitley Kaufman
 * Books (mostly textbooks at the moment)
     * Accelerator physics
         * [Accelerator Physics](https://www.worldscientific.com/worldscibooks/10.1142/8335) — Lee
