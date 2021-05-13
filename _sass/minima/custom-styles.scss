@@ -6,12 +6,9 @@
 /*-----------------------------------*/
 /*----- ADD YOUR STYLES BELOW -------*/
 
-$dt-gray-dark: #282a36;  // Background
-
 .post-content p, .post-content li {
     font-size: 14px;
     color: #404040;
-//     color: Black;
     font-family: Arial;
 }
 
@@ -23,6 +20,16 @@ h1 {font-size: 255% !important;}
 h2 {font-size: 205% !important;}
 h3 {font-size: 165% !important;}
 h4 {font-size: 135% !important;}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Fira Sans", sans-serif; }
+code {
+  font-family: "Fira Code", monospace; }
+
+
+
+
 
 // If you want to turn off dark background for syntax highlighting, comment or delete the below line.
 @import "minima/fastpages-dracula-highlight"; 
