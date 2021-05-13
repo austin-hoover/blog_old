@@ -6,7 +6,7 @@ permalink: /about/
 
 I'm currently completing a PhD in physics from the [University of Tennessee, Knoxille](http://physics.utk.edu), studying high-intensity proton beam dynamics as part of the Accelerator Physics group at the [Spallation Neutron Source](https://neutrons.ornl.gov/sns) (SNS). I previously obtained a BS in physics from [Wheaton College](https://www.wheaton.edu). 
 
-Outside of physics, I've recently enjoyed learning about machine learning through courses in the UTK computer science department, and now through self-study. My current main non-STEM interest is philosophy, particularly philosophy of religion. In my spare time, I sometimes exercise, play chess (badly), or play piano (badly).
+Outside of physics, I enjoy learning about machine learning (I think I'm required to say that given its current popularity). My main non-STEM interest is currently philosophy, particularly philosophy of religion. In my spare time, I sometimes exercise, play chess (badly), or play piano (badly).
 
 This blog is a space for me to organize my thoughts in writing; I've found this to be a useful exercise when exploring new topics or improving my understanding of familiar topics. All my posts are categorized [here](https://austin-hoover.github.io/blog/categories/).
 
@@ -24,6 +24,8 @@ Here are some things I recommend checking out. I'll try to update this list as I
 * Articles
     * [The Unreasonable Effectiveness of Mathematics in the Natural Sciences](https://www.maths.ed.ac.uk/~v1ranick/papers/wigner.pdf) — Eugene Wigner
     * [Why are (some) physicists so bad at philosophy?](http://edwardfeser.blogspot.com/2011/02/why-are-some-physicists-so-bad-at.html) — Edward Feser
+    * [SEP — Philosophy of Religion](https://plato.stanford.edu/entries/philosophy-religion/)
+    * [New Atheism and its critics](https://onlinelibrary.wiley.com/doi/10.1111/phc3.12560) — Whitley Kaufman
 * Books (mostly textbooks at the moment)
     * Accelerator physics
         * [Accelerator Physics](https://www.worldscientific.com/worldscibooks/10.1142/8335) — Lee
