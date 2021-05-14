@@ -1,1 +1,1 @@
-Sitemap: https://austin-hoover.github.io/blog/sitemap.xml
+Sitemap: https://www.austin-hoover.com/blog/sitemap.xml
