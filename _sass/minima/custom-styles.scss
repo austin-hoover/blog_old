@@ -6,30 +6,36 @@
 /*-----------------------------------*/
 /*----- ADD YOUR STYLES BELOW -------*/
 
+// Font style
 .post-content p, .post-content li {
     font-size: 14px;
     color: #404040;
     font-family: Arial;
+    max-width: 800px;
+    align-content: left;
 }
-
-.output_area pre {
-    background-color: WhiteSmoke;
-}
-
 h1 {font-size: 255% !important;}
 h2 {font-size: 205% !important;}
 h3 {font-size: 165% !important;}
 h4 {font-size: 135% !important;}
 
+// Background color of output cells
+.output_area pre {
+    background-color: WhiteSmoke;
+}
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Fira Sans", sans-serif; }
-code {
-  font-family: "Fira Code", monospace; }
+.post-title, {
+    font-size: 90%;
+}
 
+.post-meta-title, .post-meta{
+    font-size: 100%;
+}
 
-
-
+// Tables, e.g. Pandas DataFrames
+table {
+    font-size: 85%;
+}
 
 // If you want to turn off dark background for syntax highlighting, comment or delete the below line.
 @import "minima/fastpages-dracula-highlight"; 

@@ -5,6 +5,7 @@ title: Authorship identification
 toc: true 
 badges: false
 comments: true
+image: images/task.png
 categories: [stylometry, machine learning, natural language processing]
 nb_path: _notebooks/2021-04-29-authorship_identification.ipynb
 layout: notebook
