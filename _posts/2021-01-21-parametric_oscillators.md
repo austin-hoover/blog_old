@@ -6,7 +6,7 @@ toc: true
 badges: false
 comments: true
 image: images/envelope.png
-categories: [physics, accelerators, oscillators]
+categories: [physics, accelerators, differential equations]
 nb_path: _notebooks/2021-01-21-parametric_oscillators.ipynb
 layout: notebook
 ---
