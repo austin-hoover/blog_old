@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://austin-hoover.github.io/blog/physics/accelerators/oscillators/2021/01/21/parametric_oscillators.html</loc>
+<loc>https://austin-hoover.github.io/blog/physics/accelerators/differential%20equations/2021/01/21/parametric_oscillators.html</loc>
 <lastmod>2021-01-21T00:00:00-06:00</lastmod>
 </url>
 <url>
-<loc>https://austin-hoover.github.io/blog/physics/accelerators/coupling/2021/01/25/coupled_parametric_oscillators.html</loc>
+<loc>https://austin-hoover.github.io/blog/physics/accelerators/differential%20equations/2021/01/25/coupled_parametric_oscillators.html</loc>
 <lastmod>2021-01-25T00:00:00-06:00</lastmod>
 </url>
 <url>
@@ -38,14 +38,14 @@
 </url>
 <url>
 <loc>https://austin-hoover.github.io/blog/_pages/presentations/2020-09-30_thesis_proposal.pdf</loc>
-<lastmod>2021-05-15T16:47:02-05:00</lastmod>
+<lastmod>2021-05-16T15:37:12-05:00</lastmod>
 </url>
 <url>
 <loc>https://austin-hoover.github.io/blog/_pages/presentations/2021-01-15_APgroup_coupled_motion.pdf</loc>
-<lastmod>2021-05-15T16:47:02-05:00</lastmod>
+<lastmod>2021-05-16T15:37:12-05:00</lastmod>
 </url>
 <url>
 <loc>https://austin-hoover.github.io/blog/_pages/presentations/2021-01-29_APgroup_matched_envelope.pdf</loc>
-<lastmod>2021-05-15T16:47:02-05:00</lastmod>
+<lastmod>2021-05-16T15:37:12-05:00</lastmod>
 </url>
 </urlset>
