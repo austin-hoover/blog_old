@@ -7,7 +7,7 @@ permalink: /about/
 I'm currently completing a PhD in physics from the [University of Tennessee, Knoxille](http://physics.utk.edu), studying high-intensity proton beam dynamics as part of the Accelerator Physics group at the [Spallation Neutron Source](https://neutrons.ornl.gov/sns) (SNS). I previously obtained a BS in physics from [Wheaton College](https://www.wheaton.edu). This blog is a space for me to explore technical concepts; all my posts are categorized [here](https://austin-hoover.github.io/blog/categories/). 
 
 
-### Publications
+<!-- ### Publications
 * [*Computation of the matched envelope of the Danilov distribution*](https://doi.org/10.1103/PhysRevAccelBeams.24.044201), PRAB, 04.29.2021
 
 
@@ -15,7 +15,7 @@ I'm currently completing a PhD in physics from the [University of Tennessee, Kno
 * [*Computation of the matched envelope of the Danilov distribution*](../_pages/presentations/2021-01-29_APgroup_matched_envelope.pdf), AP Group Meeting, SNS, 01.29.2021
 * [*Parameterization of coupled motion*](../_pages/presentations/2021-01-15_APgroup_coupled_motion.pdf), AP Group Meeting, SNS, 01.15.2021
 * [*Thesis proposal*](../_pages/presentations/2020-09-30_thesis_proposal.pdf), University of Tennessee, 09.30.2020
-
+ -->
 
 ### Helpful references
 
