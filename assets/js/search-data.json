@@ -66,16 +66,27 @@
         
     
   
+    
+        ,"post6": {
+            "title": "References",
+            "content": "The following are some references which I think are helpful. Any suggestions are encouraged in the comments. . Accelerator physics . Accelerator Physics — Lee | Introduction to the Physics of High Energy Accelerators — Edwards/Syphers | Measurement and Control of Charged Particle Beams — Minty/Zimmerman | Particle Accelerator Physics — Wiedemann | Space Charge Physics for Particle Accelerators — Hofmann | . Machine learning . Neural Networks and Deep Learning — Nielsen | Pattern Recognition and Machine Learning — Bishop | . Mathematics . Mathematics of Classical and Quantum Physics — Byron/Fuller | Mathematical Methods for Physicists — Arfken/Weber | . Physics core . Classical Mechanics — Taylor | Classical Mechanics — Goldstein | Introduction to Electrodynamics — Griffiths | Introduction to Thermal Physics — Schroeder | Quantum Mechanics: Concepts and Applications — Zettili | Statistical Physics of Particles — Kardar | . Programming . Algorithms — Sedgewick/Wayne | Elements of Programming Interviews in Python — Aziz/Lee/Prakash | .",
+            "url": "https://austin-hoover.github.io/blog/1900/01/01/references.html",
+            "relUrl": "/1900/01/01/references.html",
+            "date": " • Jan 1, 1900"
+        }
+        
+    
+  
 
   
   
 
   
       ,"page1": {
-          "title": "About Me",
-          "content": "I’m currently completing a PhD in physics from the University of Tennessee, Knoxille, studying high-intensity proton beam dynamics as part of the Accelerator Physics group at the Spallation Neutron Source (SNS). I previously obtained a BS in physics from Wheaton College. This blog is a space for me to explore technical concepts; all my posts are categorized here. . Helpful references . Accelerator physics Accelerator Physics — Lee | Introduction to the Physics of High Energy Accelerators — Edwards/Syphers | Measurement and Control of Charged Particle Beams — Minty/Zimmerman | Particle Accelerator Physics — Wiedemann | Space Charge Physics for Particle Accelerators — Hofmann | . | Machine learning Neural Networks and Deep Learning — Nielsen | Pattern Recognition and Machine Learning — Bishop | . | Math Mathematics of Classical and Quantum Physics — Byron/Fuller | Mathematical Methods for Physicists — Arfken/Weber | . | Physics core Classical Mechanics — Taylor | Classical Mechanics — Goldstein | Introduction to Electrodynamics — Griffiths | Introduction to Thermal Physics — Schroeder | Quantum Mechanics: Concepts and Applications — Zettili | Statistical Physics of Particles — Kardar | . | Programming Algorithms — Sedgewick/Wayne | Elements of Programming Interviews in Python — Aziz/Lee/Prakash | . | .",
-          "url": "https://austin-hoover.github.io/blog/about/",
-          "relUrl": "/about/",
+          "title": "About",
+          "content": "This blog is a space for me to write about technical things. Most of the time, I’ll focus on my research in accelerator physics, but I’m also interested in other topics such as machine learning. Please see my homepage for my bio, publications, etc. .",
+          "url": "https://austin-hoover.github.io/blog/_pages/about.html",
+          "relUrl": "/_pages/about.html",
           "date": ""
       }
       
