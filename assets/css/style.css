@@ -321,8 +321,6 @@ table td { border: 1px solid #e8e8e8; }
 /** Grid helpers */
 @media screen and (min-width: 800px) { .one-half { width: calc(50% - (30px / 2)); } }
 
-/*-----------------------------------*/
-/*--- IMPORT STYLES FOR FASTPAGES ---*/
 .post img { display: block; vertical-align: top; margin-left: auto; margin-right: auto; }
 
 img.emoji { display: inline !important; vertical-align: baseline !important; }
@@ -423,26 +421,6 @@ table th { text-align: center !important; }
 
 pre code { font-size: 15px !important; }
 
-/*-----------------------------------*/
-/*----- ADD YOUR STYLES BELOW -------*/
-.post-content p, .post-content li { font-size: 14px; color: #404040; font-family: Arial; }
-
-h1 { font-size: 255% !important; }
-
-h2 { font-size: 205% !important; }
-
-h3 { font-size: 165% !important; }
-
-h4 { font-size: 135% !important; }
-
-.output_area pre { background-color: WhiteSmoke; }
-
-.post-title { font-size: 90%; }
-
-.post-meta-title, .post-meta { font-size: 100%; }
-
-table { font-size: 85%; }
-
 .language-python + .language-plaintext { border-left: 1px solid grey; margin-left: 1rem !important; }
 
 [class^="language-"]:not(.language-plaintext) pre, [class^="language-"]:not(.language-plaintext) code { background-color: #323443 !important; color: #f8f8f2; }
@@ -495,5 +473,23 @@ table { font-size: 85%; }
 .highlight .m, .highlight .mb, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .mo, .highlight .il { color: #bd93f9; }
 
 .highlight .gd { color: #ff5555; }
+
+.post-content p, .post-content li { font-size: 14px; color: #404040; font-family: Arial; }
+
+h1 { font-size: 255% !important; }
+
+h2 { font-size: 205% !important; }
+
+h3 { font-size: 165% !important; }
+
+h4 { font-size: 135% !important; }
+
+.output_area pre { background-color: WhiteSmoke; }
+
+.post-title { font-size: 90%; }
+
+.post-meta-title, .post-meta { font-size: 100%; }
+
+table { font-size: 85%; }
 
 /*# sourceMappingURL=style.css.map */
