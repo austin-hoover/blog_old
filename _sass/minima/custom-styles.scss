@@ -1,10 +1,5 @@
-/*-----------------------------------*/
-/*--- IMPORT STYLES FOR FASTPAGES ---*/
-@import "minima/fastpages-styles";   
-
-
-/*-----------------------------------*/
-/*----- ADD YOUR STYLES BELOW -------*/
+@import "minima/fastpages-styles"; 
+@import "minima/fastpages-dracula-highlight"; 
 
 // Font style
 .post-content p, .post-content li {
@@ -30,10 +25,6 @@ h4 {font-size: 135% !important;}
     font-size: 100%;
 }
 
-// Tables, e.g. Pandas DataFrames
 table {
     font-size: 85%;
 }
-
-// If you want to turn off dark background for syntax highlighting, comment or delete the below line.
-@import "minima/fastpages-dracula-highlight"; 
