@@ -1,7 +1,7 @@
 ---
 keywords: fastai
-description: With a high-tech paint brush.
 title: Painting a particle beam
+author: Austin Hoover
 toc: true 
 badges: false
 comments: true

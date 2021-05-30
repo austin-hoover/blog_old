@@ -1,0 +1,23 @@
+---
+layout: default
+permalink: /archive
+title: Archive
+---
+
+<header class="page-heading">{{page.title}}</header>
+
+{% for post in site.posts %}
+    {% if post.hide != true %}
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+            <article class="archive-item">
+                <p class="post-meta post-meta-title" style="text-align:left;">
+                    <a class="page-meta" href="{{ site.baseurl }}{{ post.url }}">
+                        {{post.title}}
+                    </a>  
+                    <span style="float:right; font-size:13px;">
+                        {{ post.date | date: date_format }}
+                    </span>
+                </p>
+            </article>
+    {% endif %}
+{% endfor %}

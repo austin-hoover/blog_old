@@ -3,7 +3,6 @@
 
 .post img {
         display: block;
-        // border:1px solid #021a40;
         vertical-align: top;
         margin-left: auto;
         margin-right: auto;
@@ -22,9 +21,8 @@ img.emoji{
 }
 
 .page-content {
-        -webkit-font-smoothing: antialiased !important;
-        text-rendering: optimizeLegibility !important;
-        font-family: "Segoe UI", SegoeUI, Roboto, "Segoe WP", "Helvetica Neue", "Helvetica", "Tahoma", "Arial", sans-serif !important;
+    -webkit-font-smoothing: antialiased !important;
+    text-rendering: optimizeLegibility !important;
 }
 
 // make non-headings slightly lighter
@@ -34,33 +32,25 @@ img.emoji{
 }
 
 .post-link{
-    font-weight: normal;
+    font-weight: bold;
 }
 
 // change padding of headings
-h1 {
-    margin-top:2.5rem !important;
-}
-
-h2 {
-    margin-top:2rem !important; 
-}
-
-h3, h4 {
-    margin-top:1.5rem !important;      
-}
+h1 {margin-top:2.5rem !important;}
+h2 {margin-top:2rem !important;}
+h3, h4 {margin-top:1.5rem !important;}
 
 p {
     margin-top:1rem !important; 
     margin-bottom:1rem !important;   
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
     font-weight: normal !important;
-    margin-bottom:0.5rem !important;  
-    code {
-      font-size: 100%;
-    }
+//     margin-bottom:0.5rem !important;  
+//     code {
+//       font-size: 100%;
+//     }
 }
 
 pre {
@@ -68,7 +58,7 @@ pre {
 }
 
 // make sure the post title doesn't have too much spacing
-.post-title { margin-top: .5rem !important; }
+.post-title { margin-top: 0.0px !important; }
 
 li {
   h3, h4 {
@@ -76,13 +66,17 @@ li {
   margin-bottom:.05rem !important;
   }
   .post-meta-description {
-    color: rgb(88, 88, 88);
+    color: $brand-color;
     font-size: 15px;
     margin-top:.05rem !important;
     margin-bottom:.05rem !important;
   }
 }
 
+.post-content p, .post-content li {
+   font-size: 20px;
+   color: black;
+}
 
 
 //  Code Folding
@@ -145,16 +139,17 @@ h6:hover .anchor-link {
 
 // Custom styling for homepage post previews
 .post-meta-title, .post-meta{
-  margin-top: .25em !important;
-  margin-bottom: .25em !important;
-  font-size: 105%;
+  margin-top: .1em !important;
+  margin-bottom: .1em !important;
+  font-size: 100% !important;
+  color: $brand-color !important;
 }
 
 .page-description {
   margin-top: .5rem !important;
   margin-bottom: .5rem !important;
-  color: #585858;
-  font-size: 115%;
+  color: $brand-color !important;
+  font-size: 100% !important;
 }
 
 // Custom styling for category tags
@@ -197,13 +192,13 @@ h6:hover .anchor-link {
 }
 
 table {
-  white-space: normal;
-  max-width: 100%;
-  font-size: 100%;
-  border:none;
-  th{
+    white-space: normal;
+    max-width: 100%;
+    font-size: 90%;
+    border:none;
+    th{
     text-align: center! important;
-  }
+    }
 }
 
 // customize scrollbars
@@ -240,7 +235,7 @@ table {
 // @media only screen and (max-width: 1200px) {
 //   /* for mobile phone and tablet devices */
   .output_wrapper{
-    overflow: scroll;
+    overflow: auto;
   }
 // }
 

@@ -2,6 +2,7 @@
 keywords: fastai
 description: Describing particle motion in the presence of time-dependent linear forces.
 title: Parametric oscillators
+author: Austin Hoover
 toc: true 
 badges: false
 comments: true
