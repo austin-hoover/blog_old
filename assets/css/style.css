@@ -478,7 +478,7 @@ pre code { font-size: 15px !important; }
 
 .output_area pre { background-color: WhiteSmoke; }
 
-.post-link { font-weight: normal; }
+.post-link { font-weight: 440; }
 
 .page-description { font-size: 15px !important; }
 
@@ -486,6 +486,6 @@ pre code { font-size: 15px !important; }
 
 .highlight { font-size: 12.5px !important; }
 
-h1, h2, h3, h4, h5 { font-weight: 410 !important; }
+h1, h2, h3, h4, h5 { font-weight: 440 !important; }
 
 /*# sourceMappingURL=style.css.map */
