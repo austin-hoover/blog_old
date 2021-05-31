@@ -6,8 +6,10 @@ title: About
 
 <header class="page-heading">{{page.title}}</header>
 
-I started this blog because I've found that writing about a given topic is an effective way to improve my understanding of that topic. It's not meant to be a portfolio; for my more publications, CV, etc., please visit my [home page](https://austin-hoover.github.io). 
+The primary purpose of this blog is to improve my understanding of whatever topics I choose to write about. Although I haven't placed any constraints on the possible topics, most will fall under one of the following categories:
 
-My primary interest in the STEM world is physics, particularly accelerator physics. Outside of STEM, I'm interested in philosophy, particularly philosophy of religion and philosophy of science. It's likely that most of my posts will fall under these categories.
+* Physics, particularly the area of accelerator physics.
+* Statistics, data analysis, programming, etc.
+* Philosophy, particularly philosophy of religion and philosophy of science.
 
-Although I may write as if I have an audience, I'm really writing for myself. I apologize for the inevitable misspellings, grammar mistakes, and/or all-around poor style.
+Please visit my [home page](https://austin-hoover.github.io) for my publications, CV, etc.
