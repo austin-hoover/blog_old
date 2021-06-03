@@ -1903,7 +1903,7 @@ $$ g(C) \ge g(ant(C)) \,\, and \,\, g(C) &gt; g(succ(C)) \tag{6}$$
 <p>
 $$ SCP(c_1c_2) = p(c_1|c_2) \cdot p(c_2|c_1) = \frac{p(c_1,c_2)^2}{p(c_1)p(c_2)}, \tag{7}$$
 </p>
-<p>so SCP is a measure of how likely one character is given the other and vice versa. This formula can be applied to an n-gram $C = c_1\dots c_n$ by performing a <em>pseudo bigram transformation</em>, which means splitting the n-gram into two parts at a chosen <em>dispersion point</em>; for example, "help" could be split as "h*elp", "he*lp", or "hel*p", where <em> is the dispersion point. Splitting $C$ as $c_1 \dots c_{n-1}$</em>$c_n$ would give</p>
+<p>so SCP is a measure of how likely one character is given the other and vice versa. This formula can be applied to an n-gram $C = c_1\dots c_n$ by performing a <em>pseudo bigram transformation</em>, which means splitting the n-gram into two parts at a chosen <em>dispersion point</em>; for example, "help" could be split as "h*elp", "he*lp", or "hel*p", where * is the dispersion point. Splitting $C$ as $c_1 \dots c_{n-1}$*$c_n$ would give</p>
 <p>
 $$ SCP((c_1 \dots c_{n-1})c_n) = \frac{p(c_1 \dots c_n)^2}{p(c_1 \dots c_{n-1})p(c_n)}. \tag{8}$$
 </p>
@@ -2296,7 +2296,7 @@ LM related n-grams: 178
       </div>
     </div>
 
-    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/austin-hoover" title="austin-hoover"><svg class="svg-icon grey"><use xlink:href="/blog/assets/minima-social-icons.svg#github"></use></svg></a></li></ul>
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/austin-hoover" title="austin-hoover"><svg class="svg-icon grey"><use xlink:href="/blog/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://www.linkedin.com/in/austin-hoover-7b760511b" title="austin-hoover-7b760511b"><svg class="svg-icon grey"><use xlink:href="/blog/assets/minima-social-icons.svg#linkedin"></use></svg></a></li></ul>
 </div>
 
   </div>
