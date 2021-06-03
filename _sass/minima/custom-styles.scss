@@ -1,10 +1,7 @@
 @import "minima/fastpages-styles"; 
 @import "minima/fastpages-dracula-highlight"; 
+@import "minima/jupyter-variables";
 
-.post-content p, .post-content li {
-    font-size: 15px;
-    color: black;
-}
 
 // Background color of output cells
 .output_area pre {
@@ -16,18 +13,152 @@
     font-size: 21px;
 }
 
-.page-description {
-  font-size: 15px !important;
+.home {
+  max-width: 1200px;
 }
 
 .katex {
     font-size: 110% !important;
+    font-color: black !important;
 } 
 
 .highlight {
     font-size: 12px !important;
 }
 
-h1, h2, h3, h4, h5 {
-    font-weight: 440 !important;
+.post-content p, .post-content li {
+    color: $--jp-content-font-color1 !important;
+    font-family: $--jp-content-font-family !important;
+    font-size: $--jp-content-font-size1 !important;
+    line-height: $--jp-content-line-height !important;
 }
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  line-height: $--jp-content-heading-line-height !important;
+  font-weight: $--jp-content-heading-font-weight !important;
+  font-style: normal !important;
+}
+
+h2, h3, h4, h5, h6 {
+  margin: $--jp-content-heading-margin-top 0
+          $--jp-content-heading-margin-bottom 0 !important;
+}
+
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child,
+h6:first-child {
+  margin-top: calc(0.5 * $--jp-content-heading-margin-top) !important;
+}
+
+h2:last-child,
+h3:last-child,
+h4:last-child,
+h5:last-child,
+h6:last-child {
+  margin-bottom: calc(0.5 * $--jp-content-heading-margin-bottom) !important;
+}
+
+h1 {
+  font-size: 1.2 * $--jp-content-font-size5 !important;
+}
+
+h2 {
+  font-size: $--jp-content-font-size4 !important;
+}
+
+h3 {
+  font-size: $--jp-content-font-size3 !important;
+}
+
+h4 {
+  font-size: $--jp-content-font-size2 !important;
+}
+
+h5 {
+  font-size: $--jp-content-font-size1 !important;
+}
+
+h6 {
+  font-size: $--jp-content-font-size0 !important;
+}
+
+
+// Tables
+table {
+  border-collapse: collapse !important;
+  border-spacing: 1 !important;
+  border-color: black !important;
+  color: $--jp-ui-font-color1 !important;
+  font-size: 11px !important;
+  table-layout: fixed !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+thead {
+  border-bottom: $--jp-border-width solid $--jp-border-color1 !important;
+  vertical-align: bottom !important;
+}
+
+td:first-child, th:first-child {
+    font-size: 11px !important;
+}
+
+td, th, tr {
+  vertical-align: right !important;
+  padding: 0.5em 0.5em !important;
+  line-height: normal !important;
+  white-space: normal !important;
+  max-width: none !important;
+}
+
+td {
+    padding: 0.75em 0.75em !important;
+}
+
+td, th {
+  max-width: none !important;
+}
+
+td, th, tr {
+  text-align: middle !important;
+}
+
+th {
+  font-weight: bold !important;
+}
+
+tbody tr:hover {
+    background: AliceBlue !important;
+}
+
+table {
+  margin-bottom: 1em !important;
+}
+
+
+// Description under post title
+.page-description {
+    color: $brand-color !important;
+    font-size: 1.05 * $--jp-content-font-size1 !important;
+    margin-bottom: 0.25em !important;
+}
+
+// Description under post title on home page
+.post-meta-description {
+    font-size: $--jp-content-font-size1 !important;
+    color: $brand-color !important;
+}
+
+// Author and date
+.post-meta-title, .post-meta {
+    color: $brand-color !important;
+    font-size: 0.95 * $--jp-content-font-size1 !important;
+}
+
+// .image-preview {
+//     height: 90px;
+// }

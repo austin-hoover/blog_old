@@ -1691,7 +1691,7 @@ $$ g(C) \ge g(ant(C)) \,\, and \,\, g(C) &gt; g(succ(C)) \tag{6}$$
 <p>{% raw %}
 $$ SCP(c_1c_2) = p(c_1|c_2) \cdot p(c_2|c_1) = \frac{p(c_1,c_2)^2}{p(c_1)p(c_2)}, \tag{7}$$
 {% endraw %}</p>
-<p>so SCP is a measure of how likely one character is given the other and vice versa. This formula can be applied to an n-gram $C = c_1\dots c_n$ by performing a <em>pseudo bigram transformation</em>, which means splitting the n-gram into two parts at a chosen <em>dispersion point</em>; for example, "help" could be split as "h*elp", "he*lp", or "hel*p", where <em> is the dispersion point. Splitting $C$ as $c_1 \dots c_{n-1}$</em>$c_n$ would give</p>
+<p>so SCP is a measure of how likely one character is given the other and vice versa. This formula can be applied to an n-gram $C = c_1\dots c_n$ by performing a <em>pseudo bigram transformation</em>, which means splitting the n-gram into two parts at a chosen <em>dispersion point</em>; for example, "help" could be split as "h*elp", "he*lp", or "hel*p", where * is the dispersion point. Splitting $C$ as $c_1 \dots c_{n-1}$*$c_n$ would give</p>
 <p>{% raw %}
 $$ SCP((c_1 \dots c_{n-1})c_n) = \frac{p(c_1 \dots c_n)^2}{p(c_1 \dots c_{n-1})p(c_n)}. \tag{8}$$
 {% endraw %}</p>
