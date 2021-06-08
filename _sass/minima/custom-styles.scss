@@ -3,7 +3,6 @@
 @import "minima/jupyter-variables";
 
 
-// Background color of output cells
 .output_area pre {
     background-color: WhiteSmoke;
 }
@@ -11,6 +10,7 @@
 .post-link{
     font-weight: 440;
     font-size: 21px;
+    margin-bottom: 0.15em;
 }
 
 .home {
@@ -18,7 +18,7 @@
 }
 
 .katex {
-    font-size: 110% !important;
+    font-size: 115% !important;
     font-color: black !important;
 } 
 
@@ -162,3 +162,12 @@ table {
 // .image-preview {
 //     height: 90px;
 // }
+
+
+
+.footnotes {
+    font-size: 0.8 * $--jp-content-font-size1 !important;
+    p, li{
+        font-size: 0.8 * $--jp-content-font-size1 !important;
+    } 
+}

@@ -1,5 +1,6 @@
 ---
 keywords: fastai
+description: Some academic books that I've found to be useful.
 title: References
 toc: true 
 badges: false
@@ -19,13 +20,6 @@ layout: notebook
 
 <div class="container" id="notebook-container">
         
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>The following are some references which I think are helpful. Any suggestions are encouraged in the comments.</p>
-
-</div>
-</div>
-</div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Accelerator-physics">Accelerator physics<a class="anchor-link" href="#Accelerator-physics"> </a></h2><ul>

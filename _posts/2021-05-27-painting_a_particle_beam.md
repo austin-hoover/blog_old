@@ -1,5 +1,6 @@
 ---
 keywords: fastai
+description: How intense proton beams are created in the SNS.
 title: Painting a particle beam
 author: Austin Hoover
 toc: true 
