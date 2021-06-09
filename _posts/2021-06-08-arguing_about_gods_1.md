@@ -1,7 +1,7 @@
 ---
 keywords: fastai
 description: Preliminary Considerations
-title: Arguing about Gods (part 1)
+title: Arguing About Gods (part 1)
 comments: true
 toc: true
 badges: false
