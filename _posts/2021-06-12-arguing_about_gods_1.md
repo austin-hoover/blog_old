@@ -76,7 +76,7 @@ layout: notebook
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>My inclination is to make <em>r</em> quite narrow and centered on 0.5; I don’t think this is a good or bad thing — it’s just how my brain works. I’d be tempted to call this agnosticism. My actual credence interval, however, might be something like (0.45, 0.65). I’m attracted by several arguments for theism, but also by a couple of arguments for atheism. Overall, I’m more convinced by arguments for theism than for atheism, hence the higher upper bound. There are also other issues at play, but that’s the short explanation for my choice. If you pressed me, I would say I'm a theist.</p>
+<p>My inclination is to make <em>r</em> quite narrow and centered on 0.5; I don’t think this is a good or bad thing — it’s just how my brain works. I’d be tempted to call this agnosticism. My actual credence interval, however, might be something like (0.45, 0.65). I’m attracted by several arguments for theism, but also by a couple of arguments for atheism. Overall, I’m more convinced by arguments for theism than for atheism, hence the higher upper bound. There are also other issues at play, but that’s the short explanation for my choice.</p>
 
 </div>
 </div>
