@@ -206,10 +206,9 @@ layout: notebook
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>The strong agnostic needs to make some distinction between the God hypotheses and the cases involving extreme skepticism; however, there’s no clear way to do this. Oppy notes that the best approach is probably to say that my skepticism about the external world requires me to believe I’m special — somehow, I’m the only real thing in my perceived world — and that this gives me a reason to reject my skepticism. Call this the “I’m special” consideration ISC. However, Oppy proceeds, if the strong atheist concedes that the ISC is required to distinguish between these cases, then they have conceded that external evidence is not the only thing that can support reasonable beliefs, for the reason why the ISC should count against the truth of a belief is not clear from external evidence even though it may be clear to the strong agnostic. So, the problem is not that the strong agnostic is unreasonable for liking the ISC, it’s that they might be forced to choose between extreme skepticism and admitting that theists and atheists can be reasonable. In other words, the strong agnostic cannot believe (3) and the following statement at the same time:</p>
-<ol>
-<li>It is possible to characterize a suitable notion of evidential support that does not rely upon a relativization to background assumptions.</li>
-</ol>
-<p>This last view — suspending belief or non-belief in God while recognizing that this is not the only reasonable way to proceed — is weak agnosticism.</p>
+<ol start="4">
+  <li>It is possible to characterize a suitable notion of evidential support that does not rely upon a relativization to background assumptions.</li>
+</ol><p>This last view — suspending belief or non-belief in God while recognizing that this is not the only reasonable way to proceed — is weak agnosticism.</p>
 
 </div>
 </div>
