@@ -197,14 +197,14 @@ layout: notebook
 <p>{% raw %}
 $$ \dot{\mathbf{q}} = \frac{\partial\mathbf{H}}{\partial\mathbf{p}} ,\quad \dot{\mathbf{p}} = -\frac{\partial\mathbf{H}}{\partial\mathbf{q}},$$
 {% endraw %}</p>
-<p>where $\mathbf{q}$ are the coordinates and $\mathbf{p}$ are the momenta. Imagine we took a volume of phase space and started to fill it with particles; in fact, we fill all of the infinite number of points inside the volume. Then we evolve the system in time. The final distribution of particles may have changed shape, but Liouville's theorem states that its volume will not have changed. Mathematically, this is due to Hamilton's equations being equivalent to a coordinate transformation whose Jacobian has a determinant equal to one. So the objection is that the phase space volume of the entire system (linac beam + circulating beam) seems to <em>decrease</em> when they are merged, i.e., the linac beam is stacked directly on top of the circulating beam, and that this should be disallowed by Liouville's theorem. Is this true?</p>
+<p>where $\mathbf{q}$ are the coordinates and $\mathbf{p}$ are the momenta. Imagine we took a volume of phase space and started to fill it with particles; in fact, we fill all of the infinite number of points inside the volume. Then we evolve the system in time. The final distribution of particles may have changed shape, but Liouville's theorem states that its volume will not have changed. Mathematically, this is due to Hamilton's equations being equivalent to a coordinate transformation whose Jacobian has a determinant equal to one. So, the objection is that the phase space volume of the entire system (linac beam + circulating beam) seems to <em>decrease</em> when they are merged, i.e., the linac beam is stacked directly on top of the circulating beam, and that this should be disallowed by Liouville's theorem. Is this true?</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>I read a paper by A. Ruggiero which helped to clarify this issue {%cite Ruggiero1978%}. The key point is that Liouville's theorem deals with <em>distributions</em> rather than finite numbers of particles. Any finite number of particles will not fill up every point in phase space, so there is nothing preventing another finite number of particles from being stacked on top of the original group. The real limitation is how to stack the two groups, which is where the charge exchange technique becomes necessary.</p>
+<p>I read a paper by A. Ruggiero which helped to clarify this issue {%cite Ruggiero1978%}. The key point is that Liouville's theorem deals with <em>distributions</em> rather than finite numbers of particles. Any finite number of particles will not fill up every point in phase space, so there is nothing preventing another finite number of particles from being added to the empty regions. The limitation is that it's not clear how to guide two beams of the same charge to the same position using dipole magnets; hence, charge exchange. I should note, however, that this does not seem to be the explanation put forth in the talks I've heard on this subject. I'm planning to discuss this with some other people in the field.</p>
 
 </div>
 </div>
@@ -217,7 +217,7 @@ $$ \dot{\mathbf{q}} = \frac{\partial\mathbf{H}}{\partial\mathbf{p}} ,\quad \dot{
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>A major research project at the SNS is to demonstrate laser-assisted charge exchange (LACE), in which a laser is used to strip the electrons intead of a foil. This would overcome the scattering losses from foils as well as their finite lifetimes, and is a very promising direction as machines continue to increase in power {%cite Cousineau2017%}.</p>
+<p>A major research project at the SNS is to demonstrate laser-assisted charge exchange (LACE), in which a laser is used to excite the ions and a dipole magnet is used to strip the magnets intead of a foil. This would overcome the scattering losses from foils as well as their finite lifetimes; it is a very promising approach as machines continue to increase in power {%cite Cousineau2017%}.</p>
 
 </div>
 </div>
