@@ -138,21 +138,23 @@ table {
 
 // Description under post title
 .page-description {
-    color: $brand-color !important;
+//     color: $brand-color !important;
+    color: #585858 !important;
     font-size: 1.05 * $--jp-content-font-size1 !important;
     margin-bottom: 0.25em !important;
 }
 
 // Description under post title on home page
 .post-meta-description {
-    font-size: $--jp-content-font-size1 !important;
-    color: $brand-color !important;
+    color: #585858 !important;
+    font-size: 1.01 * $--jp-content-font-size1 !important;
+//     color: $brand-color !important;
 }
 
 // Author and date
 .post-meta-title, .post-meta {
     color: $brand-color !important;
-    font-size: 1.0 * $--jp-content-font-size1 !important;
+    font-size: 0.96 * $--jp-content-font-size1 !important;
 }
 
 // .image-preview {
@@ -172,4 +174,9 @@ table {
 
 .home {
   max-width: 1200px !important;
+}
+
+
+.category-tags-link {
+  font-size: 0.87 * $--jp-content-font-size1 !important;
 }
