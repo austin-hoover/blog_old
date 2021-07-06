@@ -13,10 +13,6 @@
     margin-bottom: 0.15em;
 }
 
-.home {
-  max-width: 1200px;
-}
-
 .katex {
     font-size: 115% !important;
     font-color: black !important;
@@ -156,7 +152,7 @@ table {
 // Author and date
 .post-meta-title, .post-meta {
     color: $brand-color !important;
-    font-size: 0.95 * $--jp-content-font-size1 !important;
+    font-size: 1.0 * $--jp-content-font-size1 !important;
 }
 
 // .image-preview {
@@ -171,4 +167,9 @@ table {
         font-size: 0.8 * $--jp-content-font-size1 !important;
         font-style: italic !important;
     } 
+}
+
+
+.home {
+  max-width: 1200px !important;
 }
