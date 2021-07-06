@@ -493,8 +493,6 @@ pre code { font-size: 15px !important; }
 
 .post-link { font-weight: 440; font-size: 21px; margin-bottom: 0.15em; }
 
-.home { max-width: 1200px; }
-
 .katex { font-size: 115% !important; font-color: black !important; }
 
 .highlight { font-size: 12px !important; }
@@ -546,10 +544,12 @@ table { margin-bottom: 1em !important; }
 
 .post-meta-description { font-size: 14px !important; color: #828282 !important; }
 
-.post-meta-title, .post-meta { color: #828282 !important; font-size: 13.3px !important; }
+.post-meta-title, .post-meta { color: #828282 !important; font-size: 14px !important; }
 
 .footnotes { font-size: 11.2px !important; }
 
 .footnotes p, .footnotes li { font-size: 11.2px !important; font-style: italic !important; }
+
+.home { max-width: 1200px !important; }
 
 /*# sourceMappingURL=style.css.map */
