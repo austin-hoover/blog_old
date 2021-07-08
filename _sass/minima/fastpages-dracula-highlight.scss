@@ -41,8 +41,8 @@ $dt-green-light: rgb(172, 229, 145);
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     font-family: Menlo, Monaco, Consolas, "Lucida Console", Roboto, Ubuntu, monospace;
-    border-radius: 5px;
-//     font-size: 105%;
+    border-radius: 0px;
+    font-size: 12px !important;
 }
 .output_area pre, .output_area div {
     margin-bottom:1rem !important;
@@ -56,8 +56,6 @@ $dt-green-light: rgb(172, 229, 145);
 .output_area pre {
     border-left: 1px solid grey;
     margin-left: 1rem !important;
-//     font-size: 16px;
-//     background-color: LightSteelBlue;
 }
 
 .code_cell table { width: auto;}
@@ -217,7 +215,3 @@ $dt-green-light: rgb(172, 229, 145);
       color: $dt-red;
     }
 }
-
-// p code{
-//   font-size: 19px;
-// }

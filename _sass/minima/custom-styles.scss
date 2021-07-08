@@ -7,6 +7,10 @@
     background-color: WhiteSmoke;
 }
 
+pre, code {
+    border : none !important;
+}
+
 .post-link{
     font-weight: 440;
     font-size: 21px;
@@ -17,10 +21,6 @@
     font-size: 115% !important;
     font-color: black !important;
 } 
-
-.highlight {
-    font-size: 12px !important;
-}
 
 .post-content p, .post-content li {
     color: $--jp-content-font-color1 !important;
