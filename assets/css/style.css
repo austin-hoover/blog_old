@@ -550,8 +550,10 @@ table { margin-bottom: 1em !important; }
 
 .footnotes p, .footnotes li { font-size: 11.2px !important; font-style: italic !important; }
 
-.home { max-width: 1200px !important; }
-
 .category-tags-link { font-size: 12.18px !important; }
+
+.toc-entry > a { display: inline-block; width: 100%; }
+
+.toc-entry > a:hover, .toc-entry > a.active { background: #efeff4; text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */
