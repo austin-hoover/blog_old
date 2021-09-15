@@ -6,7 +6,7 @@ comments: true
 toc: true
 badges: false
 image: images/arguing.jpg
-categories: [book study, philosophy, theism]
+categories: [theism, arguments]
 author: Austin Hoover
 nb_path: _notebooks/2021-06-12-arguing_about_gods_1.ipynb
 layout: notebook
