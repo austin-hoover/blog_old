@@ -6,7 +6,7 @@ comments: true
 toc: true
 badges: false
 image: images/hubble_deep_field.jpg
-categories: [theism, cosmological arguments, infinity]
+categories: [theism, cosmological arguments]
 author: Austin Hoover
 nb_path: _notebooks/2021-09-15-arguing_about_gods_3a.ipynb
 layout: notebook
