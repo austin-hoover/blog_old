@@ -6,7 +6,7 @@ comments: true
 toc: true
 badges: false
 image: images/island2.jpg
-categories: [book study, philosophy, theism]
+categories: [theism, ontological arguments]
 author: Austin Hoover
 nb_path: _notebooks/2021-07-05-arguing_about_gods_2.ipynb
 layout: notebook
