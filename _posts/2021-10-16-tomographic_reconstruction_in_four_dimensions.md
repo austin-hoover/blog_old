@@ -2,7 +2,7 @@
 keywords: fastai
 title: Tomographic reconstruction in four dimensions 
 comments: true
-toc: false
+toc: true
 badges: false
 image: images/vary_n_angles.gif
 categories: [physics, accelerators, tomography]
