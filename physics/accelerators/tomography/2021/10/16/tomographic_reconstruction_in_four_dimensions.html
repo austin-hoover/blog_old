@@ -173,10 +173,10 @@ window.onload = wrap_img;
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>A direct way to do this is to use a series of slits to block all particles outside a small region $\mathbf{x} \pm \Delta\mathbf{x}$, where $\mathbf{x} = (x, x', y, y')$, and move $\mathbf{x}$ through phase space. This method is accurate but slow and not available for our beam ($10^{14}$ protons moving at 90% the speed of light). The best we can do is to measure projections of the distribution; i.e., a lower-dimensional views such as</p>
+<p>A direct way to do this is to use a series of slits to block all particles outside a small region $\mathbf{x} \pm \Delta\mathbf{x}$, where $\mathbf{x} = (x, x', y, y')$, and move $\mathbf{x}$ through phase space. This method is accurate but slow and not available for our beam ($10^{14}$ protons moving at 90% the speed of light). The best we can do is to measure projections of the distribution; i.e., lower-dimensional views such as</p>
 $$
 f(x) = \int_{-\infty}^{\infty}\int_{-\infty}^{\infty}\int_{-\infty}^{\infty}{f(x, x', y, y') dx' dy dy'}
-$$<p>and estimating the distribution from these projections. This is called <em>tomographic reconstruction</em>.</p>
+$$<p>and estimate the distribution from these projections. This is called <em>tomographic reconstruction</em>.</p>
 
 </div>
 </div>
@@ -184,7 +184,7 @@ $$<p>and estimating the distribution from these projections. This is called <em>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Tomographic reconstruction is used in a wide variety of fields, particularly in medical imaging where X-rays are used to generate 1D projections of a 2D slice of organic material at various angles. The same idea can be applied to a phase space distribution. Consider $f(x, x')$. It's straightforward to measure a 1D projection along the $x$ axis by sweeping a vertical conducting wire across the beam path; the problem is that this only corresponds to one projection angle. The trick is to approximate the motion in an accelerator as a series of linear transformations of the phase space coordinates: shearing, scaling, and rotation. Thus, the projection of a beam at one location onto the $x$ axis is a scaled projection of a projection onto a rotated axis at a different location. The projection angle can be controlled by varying the electromagnetic fields between the two locations.</p>
+<p>Tomographic reconstruction is used in a wide variety of fields, particularly in medical imaging where X-rays are used to generate 1D projections of a 2D slice of organic material at various angles. The same idea can be applied to a phase space distribution. Consider $f(x, x')$. It's straightforward to measure a 1D projection along the $x$ axis by sweeping a vertical conducting wire across the beam path; the problem is that this only corresponds to one projection angle. The trick is to approximate motion in an accelerator as a series of linear transformations of the phase space coordinates: shearing, scaling, and rotation. Thus, the projection of a beam at one location onto the $x$ axis is a scaled projection of a projection onto a rotated axis at a different location. The projection angle can be controlled by varying the electromagnetic fields between the two locations.</p>
 
 </div>
 </div>
