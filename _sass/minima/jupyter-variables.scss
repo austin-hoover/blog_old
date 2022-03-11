@@ -53,7 +53,8 @@ $--jp-rendermime-table-row-hover-background: var(--md-light-blue-50);
 * is applied to a parent element. When children elements, such as headings, are sized
 * in em all things will be computed relative to that body size.
 */
-$--jp-content-line-height: 1.6;
+// $--jp-content-line-height: 1.6;
+$--jp-content-line-height: 1.4;
 $--jp-content-font-scale-factor: 1.2;
 $--jp-content-font-size0: 0.83333em;
 $--jp-content-font-size1: 14px; /* Base font size */
@@ -85,7 +86,8 @@ $--jp-content-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
 * Code font variables are used for typography of code and other monospaces content.
 */
 $--jp-code-font-size: 13px;
-$--jp-code-line-height: 1.3077; /* 17px for 13px base */
+// $--jp-code-line-height: 1.3077; /* 17px for 13px base */
+$--jp-code-line-height: 1.4; /* 17px for 13px base */
 $--jp-code-padding: 5px; /* 5px for 13px base, codemirror highlighting needs integer px value */
 $--jp-code-font-family-default: Menlo, Consolas, 'DejaVu Sans Mono', monospace;
 $--jp-code-font-family: var(--jp-code-font-family-default);

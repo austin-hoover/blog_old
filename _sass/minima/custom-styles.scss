@@ -3,20 +3,24 @@
 @import "minima/jupyter-variables";
 
 
+// Code cells
+pre, code {
+    border : none !important;
+    line-height: $--jp-code-line-height ! important;
+}
+
+// Code cell output
 .output_area pre {
     background-color: WhiteSmoke;
 }
 
-pre, code {
-    border : none !important;
-}
-
-.post-link{
+.post-link {
     font-weight: 440;
     font-size: 21px;
     margin-bottom: 0.15em;
 }
 
+// Latex equations
 .katex {
     font-size: 115% !important;
     font-color: black !important;
@@ -29,7 +33,7 @@ pre, code {
     line-height: $--jp-content-line-height !important;
 }
 
-/* Headings */
+// Headings
 h1, h2, h3, h4, h5, h6 {
   line-height: $--jp-content-heading-line-height !important;
   font-weight: $--jp-content-heading-font-weight !important;
@@ -100,7 +104,8 @@ thead {
 }
 
 td:first-child, th:first-child {
-    font-size: 11px !important;
+    // font-size: 11px !important;
+    font-size: 21px !important;
 }
 
 td, th, tr {
@@ -184,3 +189,5 @@ table {
     text-decoration: none;
 //     transition: all 100ms ease-in-out;
 }
+
+// @import "minima/dark-mode.scss";

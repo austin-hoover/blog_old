@@ -1,5 +1,5 @@
 $high-emph: rgba(white, 0.87);
-$med-emph: rgba(white, 0.69); //Noicee
+$med-emph: rgba(white, 0.69); 
 $low-emph: rgba(white, 0.38);
 $dark-grey : #121212; 
 // $dark-grey : #1F1B24;
@@ -24,30 +24,30 @@ a:hover {
 }
 
 .site-nav {
-    background-color: $dark-grey;
-    border-color: $overlay-light;
+    background-color: $dark-grey !important;
+    border-color: $overlay-light !important;
 }
 
 * {
-    scrollbar-color: $dark-grey $overlay-light;
+    scrollbar-color: $dark-grey $overlay-light !important;
 }
 
 pre, code {
     // BVas a lighter colour to better highlight short code words
-    border-color: $overlay-light;
-    background-color: $overlay;
+    border-color: $overlay-light !important;
+    background-color: $overlay !important;
 }
 
 .page-description {
-    color: $med-emph;
+    color: $med-emph !important;
 }
 
 .post-meta {
-    color: $low-emph;
+    color: $low-emph !important;
 }
 
 .post-content p, .post-content li {
-    color: $med-emph;
+    color: $med-emph !important;
 }
 
 .btn {
@@ -61,29 +61,29 @@ pre, code {
 }
 
 table th{
-    background-color: $overlay;
-    border-color: $overlay-light;
-    color: $high-emph;
+    background-color: $overlay !important;
+    border-color: $overlay-light !important;
+    color: $high-emph !important;
 }
 
 table td{
-    background-color: $dark-grey;
-    border-color: $overlay-light;
-    color: $med-emph;
+    background-color: $dark-grey !important;
+    border-color: $overlay-light !important;
+    color: $med-emph !important;
 }
 
 .flash {
-    color: $dark-grey !important;
-    filter: brightness(80%);
+    color: $dark-grey !important !important;
+    filter: brightness(80%) !important;
 }
 
 canvas {
-    filter: invert(100%);
+    filter: invert(100%) !important;
 }
 
 .post-list > li > div {
     box-shadow: none !important;
-    background-color: $overlay;
+    background-color: $overlay !important;
     border: none !important;
 }
 
