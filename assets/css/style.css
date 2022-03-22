@@ -523,8 +523,6 @@ table { border-collapse: collapse !important; border-spacing: 1 !important; bord
 
 thead { border-bottom: 1px solid var(--md-grey-400) !important; vertical-align: bottom !important; }
 
-td:first-child, th:first-child { font-size: 21px !important; }
-
 td, th, tr { vertical-align: right !important; padding: 0.5em 0.5em !important; line-height: normal !important; white-space: normal !important; max-width: none !important; }
 
 td { padding: 0.75em 0.75em !important; }
