@@ -4,7 +4,7 @@ title: Tomographic reconstruction in four dimensions
 comments: true
 toc: true
 badges: false
-image: images/vary_n_angles.gif
+image: images/skull.jpg
 categories: [physics, accelerators, tomography]
 author: Austin Hoover
 nb_path: _notebooks/2021-10-16-tomographic_reconstruction_in_four_dimensions.ipynb
