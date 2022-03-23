@@ -20,10 +20,11 @@ img.emoji{
   color: light-grey;
 }
 
-.page-content {
-    -webkit-font-smoothing: antialiased !important;
-    text-rendering: optimizeLegibility !important;
-}
+// Font smoothing
+// .page-content {
+//     -webkit-font-smoothing: antialiased !important;
+//     text-rendering: optimizeLegibility !important;
+// }
 
 // make non-headings slightly lighter
 .post-content p, .post-content li {
