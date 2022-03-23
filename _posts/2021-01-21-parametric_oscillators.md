@@ -153,10 +153,9 @@ $$B_y - iB_x = \sum_{n=1}^{\infty}\left({b_n - ia_n}\right)\left(\frac{x + iy}{r
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Linearized-equation-of-motion">Linearized equation of motion<a class="anchor-link" href="#Linearized-equation-of-motion"> </a></h3><p>For <em>small</em> oscillations, the equations of motion reduce to</p>
 $$
-\begin{aligned}
-    x'' &amp;\approx -\frac{q}{mc \beta_s \gamma_s} B_y(x, y, s), \\
-    y'' &amp;\approx +\frac{q}{mc \beta_s \gamma_s} B_x(x, y, s),
-\end{aligned}
+x'' \approx -\frac{q}{mc \beta_s \gamma_s} B_y(x, y, s),
+$$$$
+y'' \approx +\frac{q}{mc \beta_s \gamma_s} B_x(x, y, s),
 $$<p>where $x' = dx/ds$, $m$ is the particle mass, $c$ is the speed of light in a vacuum, $\beta_s$ is the particle speed divided by $c$, and $\gamma_s = (1 - \beta_s^2)^{-1/2}$. (For simplicity, the curved coordinate system has not been taken into account). We will ignore nonlinear terms since they greatly complicate the dynamics. We will also ignore coupling between the planes. With these approximations, we arrive at the equation of motion for a single particle in the transverse plane:</p>
 <p>{% raw %}
 $$x'' + k(s)x = 0.$$
@@ -232,6 +231,13 @@ $$x(s) = \sqrt{2J}\,w(s) \cos\left({\mu(s) + \delta}\right).$$
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>{% include image.html max-width="350" file="/blog/images/copied_from_nb/images_2021-01-21/tbt.mov" %}</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>{% include image.html max-width="350" file="/blog/images/copied_from_nb/images_2021-01-25/tbt.mov" %}</p>
 
 </div>
 </div>
