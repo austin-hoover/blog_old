@@ -551,4 +551,8 @@ table { margin-bottom: 1em !important; }
 
 .toc-entry > a:hover, .toc-entry > a.active { background: #efeff4; text-decoration: none; }
 
+.site-title { font-size: 1.5rem; font-color: black !important; }
+
+.site-header { min-height: 45px; line-height: 48px; }
+
 /*# sourceMappingURL=style.css.map */
