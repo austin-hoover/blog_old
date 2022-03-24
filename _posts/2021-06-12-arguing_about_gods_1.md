@@ -238,12 +238,14 @@ layout: notebook
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>{{ 'I won’t use direct quotes very often; hopefully it’s clear when I’m paraphrasing the book vs. discussing the book.' | fndetail: 1 }}
-{{ 'I probably shouldn’t choose [0, <em>q</em>) or (<em>p</em>, 1]; in this case, I would possibly think there is <em>zero</em> chance that <em>S</em> is true (or false).' | fndetail: 2 }}
-{{ 'Some argue that credences don’t exist in reality; see <a href="https://onlinelibrary.wiley.com/doi/10.1111/phc3.12668">this paper</a> by Liz Jackson.' | fndetail: 3 }}
-{{ 'Oppy switches from “rational” to “reasonable”, and I’m sometimes confused by the difference.' | fndetail: 4 }}
-{{ 'An infinitesimal is smaller than every number but greater than zero' | fndetail: 5 }}
-{{ 'Skeptical theism is the view that we’re not in a position to know God’s thoughts, motives, etc. in any specific situation.' | fndetail: 6 }}</p>
+<hr>
+
+<p>{{ 'I won’t use direct quotes very often; hopefully it’s clear when I’m paraphrasing the book vs. discussing the book.' | fndetail: 1 }}</p>
+<p>{{ 'I probably shouldn’t choose [0, <em>q</em>) or (<em>p</em>, 1]; in this case, I would possibly think there is <em>zero</em> chance that <em>S</em> is true (or false).' | fndetail: 2 }}</p>
+<p>{{ 'Some argue that credences don’t exist in reality; see <a href="https://onlinelibrary.wiley.com/doi/10.1111/phc3.12668">this paper</a> by Liz Jackson.' | fndetail: 3 }}</p>
+<p>{{ 'Oppy switches from “rational” to “reasonable”, and I’m sometimes confused by the difference.' | fndetail: 4 }}</p>
+<p>{{ 'An infinitesimal is smaller than every number but greater than zero' | fndetail: 5 }}</p>
+<p>{{ 'Skeptical theism is the view that we’re not in a position to know God’s thoughts, motives, etc. in any specific situation.' | fndetail: 6 }}</p>
 
 </div>
 </div>

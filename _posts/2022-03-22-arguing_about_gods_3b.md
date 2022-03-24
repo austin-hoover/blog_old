@@ -24,7 +24,7 @@ layout: notebook
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><a href="https://plato.stanford.edu/entries/leibniz/">Leibnizian</a> cosmological arguments conclude that there is a necessary being (something that must exist) which explains the existence of contingent beings (things that do not have to exist). Such arguments address the question “Why does anything exist?” and generally utilize a principle of sufficient reason (PSR): <em>every contingent fact has an explanation</em>. Some recent formulations use a weaker explanatory principle: <em>every contingent concrete being has an explanation</em>, where concrete means “possibly causes something”, or even a modal version: <em>every contingent concrete being possibly has an explanation</em>.</p>
-<p>{% include image.html max-width="300" file="/blog/images/copied_from_nb/images_2022_03_22/turtles.png" %}</p>
+<p>{% include image.html max-width="300" file="/blog/images/copied_from_nb/images_2022-03-22/turtles.png" %}</p>
 <h2 id="1.-The-Principle-of-Sufficient-Reason-(PSR)">1. The Principle of Sufficient Reason (PSR)<a class="anchor-link" href="#1.-The-Principle-of-Sufficient-Reason-(PSR)"> </a></h2><p>The PSR can be used to run an argument for the existence of a necessary being. Here is the basic form of such an argument {% cite sep-cosmological-argument %}:</p>
 <ol>
 <li>A contingent being (a being such that if it exists, it could have not-existed) exists.</li>
@@ -64,12 +64,13 @@ layout: notebook
 <p>(I am not sure exactly what is meant by the last line.) Thus, the cause would have to, in some way, “support” the chain such that if the cause did not exist, the chain would not exist. This is confusing and deserves more thought.</p>
 <h2 id="2.-Weaker-explanatory-principles">2. Weaker explanatory principles<a class="anchor-link" href="#2.-Weaker-explanatory-principles"> </a></h2><p>Pruss &amp; Rasmussen utilize a more modest explanatory principle to argue for the existence of a necessary being in their book <em>Necessary Existence</em>. They start with the traditional argument from contingency {% cite PrussRasmussen2018 %}.</p>
 <ol>
-<li>Explanatory principle:For any contingent concrete things, there is an explanation of the fact that those things exist. 2.   Considering all the contingent concrete things that exist, if there is an explanation of the fact that those things exist, then there is a necessary concrete thing.</li>
+<li>For any contingent concrete things, there is an explanation of the fact that those things exist. </li>
+<li>Considering all the contingent concrete things that exist, if there is an explanation of the fact that those things exist, then there is a necessary concrete thing.</li>
 <li>(Therefore) There is a necessary concrete being.</li>
 </ol>
 <p>Here, “concrete” means “possibly causes something”, i.e., not an abstract object like the number two. This explanatory principle is not as strong as the PSR because it is restricted to facts about existence, so it is not affected by, say, the possibility of unexplained free actions.{% fn 7 %}</p>
-<p>The authors note a few strengths of this argument: it is defensible against traditional objections from Hume {% cite Hume1779 %} and Kant {% cite Kant1787 %}, it is adaptable to a variety of metaphysical frameworks, and the basic reasoning behind the argument is simple and intuitive {% cite PrussRasmussen2018 %}. The authors also note a few weaknesses of the argument: it does not allow explanatory loops, it does not allow completely internal explanations, and it does not allow any exceptions to the explanatory principle. This last weakness is the most concerning due to the possibility of chancy events. Although indeterministic/statistical explanations are on the table, some people may not think that these are adequate explanations and will insist that, if there are chancy events, chancy events are unexplained.</p>
-<p>To overcome these weaknesses, the authors introduce several modal arguments. Recall from the discussion of ontological arguments that it is mostly accepted that “possibly necessary” is equivalent to “necessary”. Thus, if it can be shown that a necessary being possibly exists, then it follows that a necessary being exists. We will focus only on the first argument in the book, which Leon {% cite Oppy2019 %} rewrites as:</p>
+<p>The authors note a few strengths of this argument:it is defensible against traditional objections from Hume {% cite Hume1779 %} and Kant {% cite Kant1787 %}, it is adaptable to a variety of metaphysical frameworks, and the basic reasoning behind the argument is simple and intuitive {% cite PrussRasmussen2018 %}. The authors also note a few weaknesses of the argument: it does not allow explanatory loops, it does not allow completely internal explanations, and it does not allow any exceptions to the explanatory principle. This last weakness is the most concerning due to the possibility of chancy events. Although indeterministic/statistical explanations are on the table, some people may not think that these are adequate explanations and will insist that, if there are chancy events, chancy events are unexplained. 
+To overcome these weaknesses, the authors introduce several modal arguments. Recall from the discussion of ontological arguments that it is mostly accepted that “possibly necessary” is equivalent to “necessary”. Thus, if it can be shown that a necessary being possibly exists, then it follows that a necessary being exists. We will focus only on the first argument in the book, which Leon {% cite Oppy2019 %} rewrites as:</p>
 <ol>
 <li>Normally, things that can begin to exist can have a cause of the beginning of their existence. </li>
 <li>Contingent concrete reality can begin to exist. </li>
@@ -96,7 +97,15 @@ layout: notebook
 </blockquote>
 <p>Intuitions clash. For example, physicist Sean Carroll says, "I think that brute facts are things we need to accept; the universe is probably one of them." {% cite Carroll2016 %}. Perhaps all these options are equally strange, but the idea that the only explanation of the universe is brute contingency seems the most strange to me.</p>
 <p>Non-theists can claim that there is a concrete necessary being (or beings); possible candidates are the universe, fields, particles, etc. In this sense, theists and non-theists can agree on some aspects of the fundamental structure reality. Theists have an additional belief: that there is only one concrete necessary being that has properties consistent with those traditionally ascribed to God. The question thus arises: is there any way to choose between these views? This question needs to be treated on its own, separate from the cosmological argument.</p>
-<h2 id="Notes">Notes<a class="anchor-link" href="#Notes"> </a></h2><p>{{ 'We are referred to Oppy’s book <em>Philosophical Perspectives on Infinity</em> for a detailed treatment of the PSR. Many of Oppy’s thoughts on infinity are also apparently found in <em>Philosophical Perspectives on Infinity</em>. I should have read this book before <em>Arguing About Gods</em>.' | fndetail: 1 }}</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<hr>
+
+<p>{{ 'We are referred to Oppy’s book <em>Philosophical Perspectives on Infinity</em> for a detailed treatment of the PSR. Many of Oppy’s thoughts on infinity are also apparently found in <em>Philosophical Perspectives on Infinity</em>. I should have read this book before <em>Arguing About Gods</em>.' | fndetail: 1 }}</p>
 <p>{{ 'Some interpretations of quantum mechanics are deterministic (such as the pilot wave theory) and others are indeterministic. The correct interpretation of quantum mechanics is unknown. (See Tim Maudlin <a href="https://youtu.be/hC3ckLqsL5M">here</a>).' | fndetail: 2 }}</p>
 <p>{{ 'Many of those that do not accept the PSR also do not accept the libertarian account of free will, in which case this objection is irrelevant. Although I haven’t studied free will in any detail, I am open to the idea that my choices are not determined by the initial conditions of the universe. It is, of course, a difficult question.' | fndetail: 3 }}</p>
 <p>{{ 'My wife, who is not familiar with (or very interested in) this discussion, came up with essentially the same answer when I presented the dilemma to her.' | fndetail: 4 }}</p>

@@ -355,7 +355,8 @@ $$ y_{inj} - y_{co} = (y_{max} - y_{min}) \sqrt{t / t_{max}} + y_{min}, $$
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>References</strong></p>
+<hr>
+
 <p>{% bibliography --cited %}</p>
 
 </div>

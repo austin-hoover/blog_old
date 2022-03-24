@@ -401,7 +401,7 @@ $$ (x_1, x_2) \rightarrow (x_1^2, x_2^2, \sqrt{2} x_1 x_2) . \tag{4}$$
 
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>It's clear from rotating this plot that the transformed data can be split with a 2D plane. This need not be the transformation used by the SVM — in fact, many transformations can be used — but it clearly demonstrates the idea. The linear boundary in the transformed space can then be transformed to a nonlinear boundary in the original space. One way to plot this boundary is to make a prediction on a grid of points, then make a contour plot (the boundary is shown in grey).</p>
+<p>It's clear from rotating this plot (it's interactive) that the transformed data can be split with a 2D plane. This need not be the transformation used by the SVM — in fact, many transformations can be used — but it clearly demonstrates the idea. The linear boundary in the transformed space can then be transformed to a nonlinear boundary in the original space. One way to plot this boundary is to make a prediction on a grid of points, then make a contour plot (the boundary is shown in grey).</p>
 
 </div>
 </div>
@@ -2025,7 +2025,8 @@ LM related n-grams: 178
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>References</strong></p>
+<hr>
+
 <p>{% bibliography --cited %}</p>
 
 </div>

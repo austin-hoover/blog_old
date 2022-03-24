@@ -63,7 +63,7 @@ layout: notebook
 <h4 id="2.2.3.-Counting-to-infinity">2.2.3. Counting to infinity<a class="anchor-link" href="#2.2.3.-Counting-to-infinity"> </a></h4><p>Suppose finitism is false. The following argument could then be run: (i) the collection of temporal events is formed by successive addition; (ii) a collection formed by successive addition cannot be an actual infinite; (iii) the temporal series of events cannot be an actual infinite.</p>
 <p>The idea is that getting to “now” in a beginningless universe is like traversing an infinite set, which is an impossible task like counting all the negative integers: …, -3, -2, -1, 0. And this counting example raises a question: suppose I counted all the negative integers; why did I finish when I did? I should have finished an infinite time ago.</p>
 <p>These counting tasks assume there was a time at which I began counting, i.e., counting all the positive integers starting from zero. But there was no time at which I began counting. I counted 0 today, -1 yesterday, etc. So, it seems to be a coherent story. Yet even though it’s a coherent story, it feels uncomfortable to be left with this infinite regress of explanations. This kind of consideration is central to the Leibnizian argument.</p>
-<h3 id="2.3.-Causal-finitism">2.3. Causal finitism<a class="anchor-link" href="#2.3.-Causal-finitism"> </a></h3><p>Causal finitism is the idea that every event has a finite causal history {Footnote: it also rules out an infinite number of causes all acting at the same time}. Causal finitism’s advantage over finitism is that it doesn’t touch abstract mathematical objects since they can’t cause anything. The case for causal finitism given by Pruss in <em>Infinity, Causation, and Paradox</em> is that causal finitism provides a unified way to kill a wide range of paradoxes; this section looks at a few of these.</p>
+<h3 id="2.3.-Causal-finitism">2.3. Causal finitism<a class="anchor-link" href="#2.3.-Causal-finitism"> </a></h3><p>Causal finitism is the idea that every event has a finite causal history.{% fn 1 %} Causal finitism’s advantage over finitism is that it doesn’t touch abstract mathematical objects since they can’t cause anything. The case for causal finitism given by Pruss in <em>Infinity, Causation, and Paradox</em> is that causal finitism provides a unified way to kill a wide range of paradoxes; this section looks at a few of these.</p>
 <h4 id="2.3.1.-Grim-Reapers">2.3.1. Grim Reapers<a class="anchor-link" href="#2.3.1.-Grim-Reapers"> </a></h4><p>Thompson’s lamp is off at t = 0. I turn it on at t = ½, off at t = ¾, on at t = 7/8, and so on until t = 1. Is the lamp on or off at t = 1? It seems there is no way to answer this question. But although this situation is strange, it’s hard to get a real paradox without appeal to a PSR.</p>
 <p>The Grim Reaper paradox is more troublesome. I’m alive at $t = 0$ along with an infinite number of sleeping Grim Reapers (GR). Each GR has an alarm set to a time $0 \le t \le 1$; when a GR’s alarm goes off, it wakes up and kills me if I’m alive, otherwise it goes back to sleep.</p>
 <p>Let’s label the alarm time for GR $n$ as $t_n$, where $n$ can be any natural number. Suppose $t_n = 1 / 2^n$. I’ll clearly be dead at all $t &gt; 0$: I couldn’t be alive at $t = 1$ because GR 1 would have already killed me, I couldn’t be alive at $t = 1/2$ because GR 2 would have already killed me, and so on. But none of the GRs killed me: for each GR that could have killed me, there was always a GR that came before. Since my well-being at $t = 1$ is caused by infinitely many GRs, causal finitism kills the paradox.</p>
@@ -78,7 +78,7 @@ layout: notebook
 <p>The next claim to investigate is whether causal finitism can rule out infinite lotteries. There is a technical section in the book related to this question, but here I’ll mention the simplest case: random walker Bob. For every day in a beginningless past, Bob takes one step in a randomly chosen direction — left or right — and writes down his position on a piece of paper. On a random day, Bob writes also writes “winner” on the piece of paper. Thus, an infinite fair lottery has been generated when Bob arrives at today. (The lottery is fair because the probability of any given position being the winner is infinitesimal.) Causal finitism rules out this story because the position of Bob at any point in the story is caused by an infinite number of previous positions.</p>
 <p>The most promising way to kill the paradoxes without causal finitism is to note that human reasoning shouldn’t be expected to work with infinities; that’s fine, but causal finitism might be more attractive because it can also rule out paradoxes that don’t involve human reasoning. This whole discussion is pretty mathy and would take some time for me to understand it well.</p>
 <h4 id="2.3.4.-Decisions">2.3.4. Decisions<a class="anchor-link" href="#2.3.4.-Decisions"> </a></h4><p>Every minute in a beginningless past, a die is rolled. On each roll, I’m asked to guess whether the die landed on four. The penalty for a wrong answer is an electric shock. Obviously, I should always guess “no”. Now suppose I have access to the infinite number of previous rolls, that I know the game will end at some point, and that only finitely many non-fours have been rolled in the past. I now know <em>with certainty</em> that there will only be finitely many non-fours rolled for the rest of the game, so I can guess “yes” from now on and ensure a finite number of total shocks as opposed to the infinite number of total shocks I would normally receive. The paradox is that each roll is independent, so knowledge of previous rolls shouldn’t improve your future guesses. Causal finitism wouldn’t allow decisions to be made based on an infinite number of previous rolls.</p>
-<h4 id="2.3.5.-The-Axiom-of-Choice">2.3.5. The Axiom of Choice<a class="anchor-link" href="#2.3.5.-The-Axiom-of-Choice"> </a></h4><p>[There is a chapter in the book devoted to paradoxes involving the Axiom of Choice. I’ve avoided this chapter until now because it looks like it will take some time to digest, but I plan to read it at some point and replace this bracketed text with a short summary.]</p>
+<h4 id="2.3.5.-The-Axiom-of-Choice">2.3.5. The Axiom of Choice<a class="anchor-link" href="#2.3.5.-The-Axiom-of-Choice"> </a></h4><p>[There is a chapter in the book devoted to paradoxes involving the Axiom of Choice. I’ve avoided this chapter until now because it looks like it would take some time to digest, but maybe I will read it at some point and replace this bracketed text with a short summary.]</p>
 <h4 id="2.3.6.-Summary">2.3.6. Summary<a class="anchor-link" href="#2.3.6.-Summary"> </a></h4><p>There are several issues to resolve in relation to causal finitism. First, if it were true, it might raise the probability that spacetime is discrete. Second, its usefulness for killing paradoxes will depend on the nature of causation.</p>
 <p>Causal finitism leads to the existence of at least one uncaused cause — just trace each causal chain back to its origin. (It does allow for an infinite past in which different regions of an infinitely large universe are causally isolated; however, each of these isolated regions would need a first cause.) The details of the connection between causal finitism and the second premise of the Kalam are explored by Koons in his article linked at the bottom of the post. What remains is the Gap Problem: what is the nature of the first cause(s)?</p>
 <p>Okay, to my knowledge, those are some of the main arguments for the second premise of the Kalam.</p>
@@ -91,7 +91,7 @@ layout: notebook
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="4.-Conclusion">4. Conclusion<a class="anchor-link" href="#4.-Conclusion"> </a></h2><p>As I mentioned earlier, there are difficult subjects at play in the Kalam cosmological argument like causation, infinity, and cosmology. I’m tempted to refuse to evaluate the argument I have a better handle on these subjects, but I should probably evaluate the premises to the best of my ability right now, else risk never finishing this book.</p>
+<h2 id="4.-Conclusion">4. Conclusion<a class="anchor-link" href="#4.-Conclusion"> </a></h2><p>There are difficult subjects at play in the Kalam cosmological argument like causation, infinity, and cosmology. I’m tempted to refuse to evaluate the argument I have a better handle on these subjects, but I should probably evaluate the premises to the best of my ability right now, else risk never finishing this book.</p>
 <p><strong>The universe began to exist.</strong></p>
 <ul>
 <li>Modern cosmology is undecided on this premise.</li>
@@ -103,7 +103,7 @@ layout: notebook
 <p><strong>Whatever begins to exist has a cause.</strong></p>
 <ul>
 <li>It’s intuitive.</li>
-<li>I have no strong reasons to abandon this when it comes to the universe, although many questions arise when things begin to exist at the beginning of time as opposed to some later time.</li>
+<li>I have no strong reasons to abandon this when it comes to the universe, but does anything change when something begins to exist at the beginning of time as opposed to some later time?</li>
 <li>The principle “from nothing, nothing comes” is valid. </li>
 <li>It might be more helpful to talk about the PSR and CP together.</li>
 <li>Evaluation: Probably true, but need to think more about edge cases (quantum mechanics, free will).</li>
@@ -120,7 +120,7 @@ layout: notebook
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>These articles helped me while thinking about the Kalaam.</p>
+<p>These articles helped me while thinking about the Kalam argument.</p>
 
 </div>
 </div>
@@ -161,6 +161,15 @@ layout: notebook
 </ul>
 </li>
 </ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<hr>
+
+<p>{{ 'Causal finitism also rules out an infinite number of causes all acting at the same time.' | fndetail: 1 }}</p>
 
 </div>
 </div>

@@ -3,6 +3,13 @@
 @import "minima/jupyter-variables";
 
 
+// Horizontal line
+hr {
+    border: 0.75px solid black !important;
+    width: 300px !important;
+}
+
+
 pre, code {
     border : none !important;
     line-height: $--jp-code-line-height ! important;
@@ -21,7 +28,7 @@ pre, code {
 
 // Latex equations
 .katex {
-    font-size: 105% !important;
+    font-size: 106% !important;
     font-color: black !important;
 } 
 
