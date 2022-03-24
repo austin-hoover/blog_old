@@ -237,13 +237,6 @@ $$x(s) = \sqrt{2J}\,w(s) \cos\left({\mu(s) + \delta}\right).$$
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>{% include image.html max-width="350" file="/blog/images/copied_from_nb/images_2021-01-25/tbt.mov" %}</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <p>The particle jumps around an ellipse in phase space. The shape and orientation of the ellipse will change if we look at a different position in the lattice, but its area will be the same. So, the motion is determined by the dimensions and oriention of this ellipse throughout the lattice, as well as the location of the paricle on the ellipse boundary. This motivates the definition of the so-called <em>Twiss parameters</em>, which were first introduced by Courant and Snyder in 1958:</p>
 <p>{% raw %}
 $$\beta = w^2, \quad \alpha = -\frac{1}{2}\beta', \quad \gamma = \frac{1 + \alpha^2}{\beta}.$$
