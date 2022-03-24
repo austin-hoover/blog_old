@@ -22,12 +22,12 @@ pre, code {
 
 // Latex equations
 .katex {
-    font-size: 115% !important;
+    font-size: 105% !important;
     font-color: black !important;
 } 
 
 .post-content p, .post-content li {
-    color: $--jp-content-font-color1 !important;
+    color: $--jp-content-font-color0 !important;
     font-family: $--jp-content-font-family !important;
      font-size: $--jp-content-font-size1 !important;
     line-height: $--jp-content-line-height !important;
@@ -142,23 +142,26 @@ table {
 
 // Description under post title
 .page-description {
-//     color: $brand-color !important;
-    color: #585858 !important;
-    font-size: 1.05 * $--jp-content-font-size1 !important;
+    color: $brand-color !important;
+    // color: #585858 !important;
+    font-size: 100% !important;
     margin-bottom: 0.25em !important;
 }
 
 // Description under post title on home page
 .post-meta-description {
-    color: #585858 !important;
-    font-size: 1.01 * $--jp-content-font-size1 !important;
+    // color: #585858 !important;
+    colr: $brand-color !important;
+    font-size: 100% !important;
 //     color: $brand-color !important;
 }
 
 // Author and date
 .post-meta-title, .post-meta {
     color: $brand-color !important;
-    font-size: 0.96 * $--jp-content-font-size1 !important;
+    // font-size: 0.96 * $--jp-content-font-size1 !important;
+    font-size: 100% !important;
+
 }
 
 // .image-preview {
