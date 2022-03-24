@@ -493,9 +493,9 @@ pre, code { border: none !important; line-height: 1.4 !important; }
 
 .post-link { font-weight: 440; font-size: 21px; margin-bottom: 0.15em; }
 
-.katex { font-size: 115% !important; font-color: black !important; }
+.katex { font-size: 105% !important; font-color: black !important; }
 
-.post-content p, .post-content li { color: rgba(0, 0, 0, 0.87) !important; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important; font-size: 14px !important; line-height: 1.31 !important; }
+.post-content p, .post-content li { color: black !important; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important; font-size: 14px !important; line-height: 1.31 !important; }
 
 h1, h2, h3, h4, h5, h6 { line-height: 1 !important; font-weight: 500 !important; font-style: normal !important; }
 
@@ -535,11 +535,11 @@ tbody tr:hover { background: AliceBlue !important; }
 
 table { margin-bottom: 1em !important; }
 
-.page-description { color: #585858 !important; font-size: 14.7px !important; margin-bottom: 0.25em !important; }
+.page-description { color: #828282 !important; font-size: 100% !important; margin-bottom: 0.25em !important; }
 
-.post-meta-description { color: #585858 !important; font-size: 14.14px !important; }
+.post-meta-description { colr: #828282 !important; font-size: 100% !important; }
 
-.post-meta-title, .post-meta { color: #828282 !important; font-size: 13.44px !important; }
+.post-meta-title, .post-meta { color: #828282 !important; font-size: 100% !important; }
 
 .footnotes { font-size: 11.2px !important; }
 
