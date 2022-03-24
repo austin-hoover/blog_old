@@ -487,13 +487,15 @@ pre code { font-size: 15px !important; }
 /* 17px for 13px base */
 /* 5px for 13px base, codemirror highlighting needs integer px value */
 /* Layout The following are the main layout colors use in JupyterLab. In a light theme these would go from light to dark. */
+hr { border: 0.75px solid black !important; width: 300px !important; }
+
 pre, code { border: none !important; line-height: 1.4 !important; }
 
 .output_area pre { background-color: WhiteSmoke; }
 
 .post-link { font-weight: 440; font-size: 21px; margin-bottom: 0.15em; }
 
-.katex { font-size: 105% !important; font-color: black !important; }
+.katex { font-size: 106% !important; font-color: black !important; }
 
 .post-content p, .post-content li { color: rgba(0, 0, 0, 0.87) !important; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important; font-size: 14px !important; line-height: 1.31 !important; }
 
