@@ -94,7 +94,7 @@ $$\frac{d^2x}{dt^2} + k(t)x = 0,$$
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>{% include image.html max-width="400" file="/blog/images/copied_from_nb/images_2021-01-21/coordinate_system.png" %}</p>
+<p>{% include image.html max-width="350" file="/blog/images/copied_from_nb/images_2021-01-21/coordinate_system.png" %}</p>
 
 </div>
 </div>
@@ -123,7 +123,7 @@ $$B_y - iB_x = \sum_{n=1}^{\infty}\left({b_n - ia_n}\right)\left(\frac{x + iy}{r
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><img src="/blog/images/copied_from_nb/images_2021-01-21/multipoles.png" alt=""></p>
+<p>{% include image.html max-width="525" file="/blog/images/copied_from_nb/images_2021-01-21/multipoles.png" %}</p>
 
 </div>
 </div>

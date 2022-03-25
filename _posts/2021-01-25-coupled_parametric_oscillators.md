@@ -69,7 +69,7 @@ $$\dot{\mathbf{v}} = \frac{q}{m} \mathbf{v} \times \mathbf{B} = \frac{qB_0}{m}\l
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><img src="/blog/images/copied_from_nb/images_2021-01-21/multipoles.png" alt=""></p>
+<p>{% include image.html max-width="525" file="/blog/images/copied_from_nb/images_2021-01-21/multipoles.png" %}</p>
 
 </div>
 </div>
