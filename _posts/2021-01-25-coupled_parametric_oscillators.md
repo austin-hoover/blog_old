@@ -233,7 +233,7 @@ $$\mathbf{Mx} = Re \left(\sqrt{2 J_1}\mathbf{v}_1e^{-i\left(\psi_1 + \mu_1\right
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="parameterization">parameterization<a class="anchor-link" href="#parameterization"> </a></h3>
+<h3 id="Eigenvector-parameterization">Eigenvector parameterization<a class="anchor-link" href="#Eigenvector-parameterization"> </a></h3>
 </div>
 </div>
 </div>
