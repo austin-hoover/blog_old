@@ -27,51 +27,30 @@ layout: notebook
 <li><a href="https://www.amazon.com/Introduction-Physics-High-Energy-Accelerators/dp/0471551635">Introduction to the Physics of High Energy Accelerators</a> — Edwards/Syphers</li>
 <li><a href="https://www.springer.com/gp/book/9783540441878t">Measurement and Control of Charged Particle Beams</a> — Minty/Zimmerman</li>
 <li><a href="https://www.springer.com/gp/book/9783540490456">Particle Accelerator Physics</a> — Wiedemann</li>
+<li><a href="https://onlinelibrary.wiley.com/doi/book/10.1002/9783527623426">RF Linear Acceleratos</a> — Wangler</li>
 <li><a href="https://link.springer.com/book/10.1007/978-3-319-62157-9">Space Charge Physics for Particle Accelerators</a> — Hofmann</li>
+<li><a href="https://onlinelibrary.wiley.com/doi/book/10.1002/9783527622047">Theory and Design of Charged Particle Beams</a> — Reiser</li>
 </ul>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Computer-science">Computer science<a class="anchor-link" href="#Computer-science"> </a></h2><ul>
+<li><a href="https://www.amazon.com/dp/032157351X/ref=cm_sw_em_r_mt_dp_KS6HQWZ5R3MSDS71Z3RE?_encoding=UTF8&amp;psc=1">Algorithms</a> — Sedgewick/Wayne </li>
+<li><a href="https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836">Elements of Programming Interviews in Python</a> — Aziz/Lee/Prakash</li>
+</ul>
 <h2 id="Machine-learning">Machine learning<a class="anchor-link" href="#Machine-learning"> </a></h2><ul>
 <li><a href="http://neuralnetworksanddeeplearning.com">Neural Networks and Deep Learning</a> — Nielsen</li>
 <li><a href="https://www.amazon.com/Pattern-Recognition-Learning-Information-Statistics/dp/0387310738">Pattern Recognition and Machine Learning</a> — Bishop</li>
 </ul>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Mathematics">Mathematics<a class="anchor-link" href="#Mathematics"> </a></h2><ul>
 <li><a href="https://www.amazon.com/Mathematics-Classical-Quantum-Physics-Dover/dp/048667164X">Mathematics of Classical and Quantum Physics</a> — Byron/Fuller</li>
 <li><a href="https://www.amazon.com/Mathematical-Methods-Physicists-Comprehensive-Guide/dp/0123846544">Mathematical Methods for Physicists</a> — Arfken/Weber</li>
 </ul>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Physics-core">Physics core<a class="anchor-link" href="#Physics-core"> </a></h2><ul>
+<h2 id="Physics">Physics<a class="anchor-link" href="#Physics"> </a></h2><ul>
 <li><a href="https://www.amazon.com/Classical-Mechanics-John-R-Taylor/dp/189138922X">Classical Mechanics</a> — Taylor</li>
 <li><a href="https://www.amazon.com/Classical-Mechanics-3rd-Herbert-Goldstein/dp/0201657023">Classical Mechanics</a> — Goldstein</li>
 <li><a href="https://www.amazon.com/Introduction-Electrodynamics-David-J-Griffiths/dp/1108420419">Introduction to Electrodynamics</a> — Griffiths</li>
+<li><a href="https://www.amazon.com/Classical-Electromagnetism-Jerrold-Franklin/dp/0805387331#customerReviews">Classical Electromagnetism</a> — Franklin</li>
 <li><a href="https://www.amazon.com/Introduction-Thermal-Physics-Daniel-Schroeder/dp/0201380277">Introduction to Thermal Physics</a> — Schroeder</li>
 <li><a href="https://www.amazon.com/Quantum-Mechanics-Applications-Nouredine-Zettili/dp/0470026790">Quantum Mechanics: Concepts and Applications</a> — Zettili</li>
 <li><a href="https://www.amazon.com/Statistical-Physics-Particles-Mehran-Kardar/dp/0521873428#customerReviews">Statistical Physics of Particles</a> — Kardar</li>
-</ul>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Programming">Programming<a class="anchor-link" href="#Programming"> </a></h2><ul>
-<li><a href="https://www.amazon.com/dp/032157351X/ref=cm_sw_em_r_mt_dp_KS6HQWZ5R3MSDS71Z3RE?_encoding=UTF8&amp;psc=1">Algorithms</a> — Sedgewick/Wayne </li>
-<li><a href="https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836">Elements of Programming Interviews in Python</a> — Aziz/Lee/Prakash</li>
 </ul>
 
 </div>
