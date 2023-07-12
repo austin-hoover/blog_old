@@ -172,7 +172,7 @@
   
       ,"page1": {
           "title": "About",
-          "content": "About . Most posts on this blog will fall under one of the following categories: . Physics, particularly accelerator physics | Programming, data analysis, statistics, etc. | Philosophy, particularly philosophy of religion and philosophy of science | . Please visit my home page for my publications, CV, etc. .",
+          "content": "About . This blog has moved to https://austin-hoover.github.io/posts/. .",
           "url": "https://austin-hoover.github.io/blog/_pages/about.html",
           "relUrl": "/_pages/about.html",
           "date": ""
@@ -181,19 +181,6 @@
   
 
   
-      ,"page2": {
-          "title": "Archive",
-          "content": "Archive . &lt;article class=&quot;archive-item&quot;&gt; &lt;p class=&quot;post-meta post-meta-title&quot; style=&quot;text-align:left;&quot;&gt; &lt;a class=&quot;page-meta&quot; href=&quot;/blog/theism/cosmological%20arguments/2022/03/22/arguing_about_gods_3b.html&quot;&gt; Arguing About Gods (part 3b) &lt;/a&gt; &lt;span style=&quot;float:right; font-size:13px;&quot;&gt; Mar 22, 2022 &lt;/span&gt; &lt;/p&gt; &lt;/article&gt; &lt;article class=&quot;archive-item&quot;&gt; &lt;p class=&quot;post-meta post-meta-title&quot; style=&quot;text-align:left;&quot;&gt; &lt;a class=&quot;page-meta&quot; href=&quot;/blog/accelerators/plotting/2022/02/11/some_figures.html&quot;&gt; Some figures to illustrate beam injection and accumulation &lt;/a&gt; &lt;span style=&quot;float:right; font-size:13px;&quot;&gt; Feb 11, 2022 &lt;/span&gt; &lt;/p&gt; &lt;/article&gt; &lt;article class=&quot;archive-item&quot;&gt; &lt;p class=&quot;post-meta post-meta-title&quot; style=&quot;text-align:left;&quot;&gt; &lt;a class=&quot;page-meta&quot; href=&quot;/blog/physics/accelerators/tomography/2021/10/16/tomographic_reconstruction_in_four_dimensions.html&quot;&gt; Tomographic reconstruction in four dimensions &lt;/a&gt; &lt;span style=&quot;float:right; font-size:13px;&quot;&gt; Oct 16, 2021 &lt;/span&gt; &lt;/p&gt; &lt;/article&gt; &lt;article class=&quot;archive-item&quot;&gt; &lt;p class=&quot;post-meta post-meta-title&quot; style=&quot;text-align:left;&quot;&gt; &lt;a class=&quot;page-meta&quot; href=&quot;/blog/theism/cosmological%20arguments/2021/09/15/arguing_about_gods_3a.html&quot;&gt; Arguing About Gods (part 3a) &lt;/a&gt; &lt;span style=&quot;float:right; font-size:13px;&quot;&gt; Sep 15, 2021 &lt;/span&gt; &lt;/p&gt; &lt;/article&gt; &lt;article class=&quot;archive-item&quot;&gt; &lt;p class=&quot;post-meta post-meta-title&quot; style=&quot;text-align:left;&quot;&gt; &lt;a class=&quot;page-meta&quot; href=&quot;/blog/theism/ontological%20arguments/2021/07/05/arguing_about_gods_2.html&quot;&gt; Arguing About Gods (part 2) &lt;/a&gt; &lt;span style=&quot;float:right; font-size:13px;&quot;&gt; Jul 5, 2021 &lt;/span&gt; &lt;/p&gt; &lt;/article&gt; &lt;article class=&quot;archive-item&quot;&gt; &lt;p class=&quot;post-meta post-meta-title&quot; style=&quot;text-align:left;&quot;&gt; &lt;a class=&quot;page-meta&quot; href=&quot;/blog/physics/space%20charge/simulation/resonances/2021/07/01/space_charge_instabilities.html&quot;&gt; Space charge resonances and instabilities &lt;/a&gt; &lt;span style=&quot;float:right; font-size:13px;&quot;&gt; Jul 1, 2021 &lt;/span&gt; &lt;/p&gt; &lt;/article&gt; &lt;article class=&quot;archive-item&quot;&gt; &lt;p class=&quot;post-meta post-meta-title&quot; style=&quot;text-align:left;&quot;&gt; &lt;a class=&quot;page-meta&quot; href=&quot;/blog/theism/arguments/2021/06/12/arguing_about_gods_1.html&quot;&gt; Arguing About Gods (part 1) &lt;/a&gt; &lt;span style=&quot;float:right; font-size:13px;&quot;&gt; Jun 12, 2021 &lt;/span&gt; &lt;/p&gt; &lt;/article&gt; &lt;article class=&quot;archive-item&quot;&gt; &lt;p class=&quot;post-meta post-meta-title&quot; style=&quot;text-align:left;&quot;&gt; &lt;a class=&quot;page-meta&quot; href=&quot;/blog/accelerators/space%20charge/2021/05/27/painting_a_particle_beam.html&quot;&gt; Painting a particle beam &lt;/a&gt; &lt;span style=&quot;float:right; font-size:13px;&quot;&gt; May 27, 2021 &lt;/span&gt; &lt;/p&gt; &lt;/article&gt; &lt;article class=&quot;archive-item&quot;&gt; &lt;p class=&quot;post-meta post-meta-title&quot; style=&quot;text-align:left;&quot;&gt; &lt;a class=&quot;page-meta&quot; href=&quot;/blog/accelerators/space%20charge/differential%20equations/publications/2021/05/13/matched_Danilov_dist.html&quot;&gt; Computing matched envelopes &lt;/a&gt; &lt;span style=&quot;float:right; font-size:13px;&quot;&gt; May 13, 2021 &lt;/span&gt; &lt;/p&gt; &lt;/article&gt; &lt;article class=&quot;archive-item&quot;&gt; &lt;p class=&quot;post-meta post-meta-title&quot; style=&quot;text-align:left;&quot;&gt; &lt;a class=&quot;page-meta&quot; href=&quot;/blog/stylometry/machine%20learning/natural%20language%20processing/2021/04/29/authorship_identification.html&quot;&gt; Authorship identification &lt;/a&gt; &lt;span style=&quot;float:right; font-size:13px;&quot;&gt; Apr 29, 2021 &lt;/span&gt; &lt;/p&gt; &lt;/article&gt; &lt;article class=&quot;archive-item&quot;&gt; &lt;p class=&quot;post-meta post-meta-title&quot; style=&quot;text-align:left;&quot;&gt; &lt;a class=&quot;page-meta&quot; href=&quot;/blog/physics/accelerators/nonlinear%20systems/resonances/2021/03/28/nonlinear_resonances.html&quot;&gt; Nonlinear resonances &lt;/a&gt; &lt;span style=&quot;float:right; font-size:13px;&quot;&gt; Mar 28, 2021 &lt;/span&gt; &lt;/p&gt; &lt;/article&gt; &lt;article class=&quot;archive-item&quot;&gt; &lt;p class=&quot;post-meta post-meta-title&quot; style=&quot;text-align:left;&quot;&gt; &lt;a class=&quot;page-meta&quot; href=&quot;/blog/physics/accelerators/simulation/space%20charge/2021/02/22/PIC.html&quot;&gt; Particle-in-cell simulation &lt;/a&gt; &lt;span style=&quot;float:right; font-size:13px;&quot;&gt; Feb 22, 2021 &lt;/span&gt; &lt;/p&gt; &lt;/article&gt; &lt;article class=&quot;archive-item&quot;&gt; &lt;p class=&quot;post-meta post-meta-title&quot; style=&quot;text-align:left;&quot;&gt; &lt;a class=&quot;page-meta&quot; href=&quot;/blog/physics/accelerators/differential%20equations/2021/01/25/coupled_parametric_oscillators.html&quot;&gt; Coupled parametric oscillators &lt;/a&gt; &lt;span style=&quot;float:right; font-size:13px;&quot;&gt; Jan 25, 2021 &lt;/span&gt; &lt;/p&gt; &lt;/article&gt; &lt;article class=&quot;archive-item&quot;&gt; &lt;p class=&quot;post-meta post-meta-title&quot; style=&quot;text-align:left;&quot;&gt; &lt;a class=&quot;page-meta&quot; href=&quot;/blog/physics/accelerators/differential%20equations/2021/01/21/parametric_oscillators.html&quot;&gt; Parametric oscillators &lt;/a&gt; &lt;span style=&quot;float:right; font-size:13px;&quot;&gt; Jan 21, 2021 &lt;/span&gt; &lt;/p&gt; &lt;/article&gt; &lt;article class=&quot;archive-item&quot;&gt; &lt;p class=&quot;post-meta post-meta-title&quot; style=&quot;text-align:left;&quot;&gt; &lt;a class=&quot;page-meta&quot; href=&quot;/blog/2021/01/01/references.html&quot;&gt; References &lt;/a&gt; &lt;span style=&quot;float:right; font-size:13px;&quot;&gt; Jan 1, 2021 &lt;/span&gt; &lt;/p&gt; &lt;/article&gt; .",
-          "url": "https://austin-hoover.github.io/blog/archive",
-          "relUrl": "/archive",
-          "date": ""
-      }
-      
-  
-
-  
-
-  
 
   
   
@@ -210,7 +197,7 @@
   
 
   
-      ,"page10": {
+      ,"page8": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://austin-hoover.github.io/blog/robots.txt",
